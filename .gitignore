@@ -49,3 +49,8 @@ __pycache__/
 # IDE
 .idea/
 .vscode/
+*.h5
+*.pkl
+*.npy
+data_augmented/
+Bacteria-11-10-24/

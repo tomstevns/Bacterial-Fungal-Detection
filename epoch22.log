@@ -1,0 +1,2901 @@
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\Scripts\python.exe C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\3_model_training_and_evaluation_FNN_6_22pr.py
+Checking data integrity...
+Class 'Aero' meets the sample requirement.
+Class 'Bacillus' meets the sample requirement.
+Class 'Bor' meets the sample requirement.
+Class 'E' meets the sample requirement.
+Class 'Morganella' meets the sample requirement.
+Class 'stapholococcus' meets the sample requirement.
+Data check passed for directory: 'C:/Users/tom.zbc/PycharmProjects/fungis_bacterias_project/data/train'
+Class 'Aero' meets the sample requirement.
+Warning: Class 'Bacillus' has only 0 samples, expected at least 2.
+Warning: Class 'Bor' has only 1 samples, expected at least 2.
+Warning: Class 'E' has only 0 samples, expected at least 2.
+Warning: Class 'Morganella' has only 1 samples, expected at least 2.
+Warning: Class 'stapholococcus' has only 1 samples, expected at least 2.
+Data check passed for directory: 'C:/Users/tom.zbc/PycharmProjects/fungis_bacterias_project/data/validation'
+Class 'Aero' meets the sample requirement.
+Warning: Class 'Bacillus' has only 1 samples, expected at least 2.
+Warning: Class 'Bor' has only 0 samples, expected at least 2.
+Warning: Class 'E' has only 0 samples, expected at least 2.
+Warning: Class 'Morganella' has only 1 samples, expected at least 2.
+Class 'stapholococcus' meets the sample requirement.
+Data check passed for directory: 'C:/Users/tom.zbc/PycharmProjects/fungis_bacterias_project/data/test'
+Data integrity check complete.
+
+Running training with params: (0.0005, 0.5, 32, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+2024-09-25 17:39:52.681624: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 852ms/step - loss: 11.9836 - accuracy: 0.1500 - val_loss: 4.9797 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 589ms/step - loss: 10.3821 - accuracy: 0.2667 - val_loss: 5.0172 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 617ms/step - loss: 11.7558 - accuracy: 0.2833 - val_loss: 5.0892 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 132ms/step - loss: 4.9358 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.97965669631958
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 869ms/step - loss: 9.2570 - accuracy: 0.2167 - val_loss: 4.9239 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 695ms/step - loss: 11.2474 - accuracy: 0.2000 - val_loss: 4.9967 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 672ms/step - loss: 9.5599 - accuracy: 0.2167 - val_loss: 5.1023 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 137ms/step - loss: 4.9666 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.923941612243652
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 904ms/step - loss: 10.5126 - accuracy: 0.1500 - val_loss: 4.9553 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 602ms/step - loss: 10.0476 - accuracy: 0.2167 - val_loss: 5.0236 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 704ms/step - loss: 11.7244 - accuracy: 0.2500 - val_loss: 5.0573 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 128ms/step - loss: 4.9579 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.955347061157227
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 901ms/step - loss: 9.8992 - accuracy: 0.1833 - val_loss: 4.9091 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 779ms/step - loss: 13.4431 - accuracy: 0.1500 - val_loss: 5.0518 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 742ms/step - loss: 9.8395 - accuracy: 0.3167 - val_loss: 5.1227 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 163ms/step - loss: 5.0179 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.909094333648682
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 941ms/step - loss: 9.5330 - accuracy: 0.1333 - val_loss: 5.0742 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 752ms/step - loss: 13.0329 - accuracy: 0.1833 - val_loss: 5.1350 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 628ms/step - loss: 9.9618 - accuracy: 0.2667 - val_loss: 5.1726 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 172ms/step - loss: 4.9744 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.074162483215332
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 963ms/step - loss: 9.8232 - accuracy: 0.1833 - val_loss: 4.9849 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 605ms/step - loss: 10.4085 - accuracy: 0.3167 - val_loss: 5.0707 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 714ms/step - loss: 10.1906 - accuracy: 0.2833 - val_loss: 5.1675 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 129ms/step - loss: 4.9471 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.984949111938477
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 938ms/step - loss: 8.8824 - accuracy: 0.1500 - val_loss: 4.9723 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 612ms/step - loss: 12.0472 - accuracy: 0.1833 - val_loss: 4.9955 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 753ms/step - loss: 9.8291 - accuracy: 0.3333 - val_loss: 5.0729 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 132ms/step - loss: 4.9986 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 4.972253799438477
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 32, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 891ms/step - loss: 10.4755 - accuracy: 0.1333 - val_loss: 4.9622 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 723ms/step - loss: 10.8419 - accuracy: 0.2000 - val_loss: 5.0298 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 621ms/step - loss: 13.1569 - accuracy: 0.1667 - val_loss: 5.0399 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 149ms/step - loss: 4.9338 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.962240695953369
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.9791 - accuracy: 0.2167 - val_loss: 5.6494 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 960ms/step - loss: 20.2188 - accuracy: 0.1500 - val_loss: 5.8172 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 979ms/step - loss: 11.2934 - accuracy: 0.3000 - val_loss: 5.8905 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 167ms/step - loss: 5.5288 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.64936637878418
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 13.1004 - accuracy: 0.2333 - val_loss: 5.6283 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 975ms/step - loss: 13.7336 - accuracy: 0.2667 - val_loss: 5.7441 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 977ms/step - loss: 15.0600 - accuracy: 0.2333 - val_loss: 5.8821 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 170ms/step - loss: 5.6945 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.628298759460449
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 13.7102 - accuracy: 0.2000 - val_loss: 5.8154 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 819ms/step - loss: 15.9661 - accuracy: 0.2000 - val_loss: 5.8365 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 1s/step - loss: 13.0797 - accuracy: 0.2333 - val_loss: 5.8407 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 151ms/step - loss: 5.6426 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.8154377937316895
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 17.1838 - accuracy: 0.1500 - val_loss: 5.7284 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 966ms/step - loss: 16.3297 - accuracy: 0.2167 - val_loss: 5.9220 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 887ms/step - loss: 14.3123 - accuracy: 0.3333 - val_loss: 6.0831 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 173ms/step - loss: 5.7592 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.728432655334473
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 15.4186 - accuracy: 0.2167 - val_loss: 5.7170 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 781ms/step - loss: 14.5146 - accuracy: 0.2500 - val_loss: 5.7702 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 1s/step - loss: 11.7210 - accuracy: 0.2833 - val_loss: 5.8824 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 151ms/step - loss: 5.7463 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.716979026794434
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 17.2829 - accuracy: 0.1333 - val_loss: 5.6982 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 839ms/step - loss: 14.6316 - accuracy: 0.2000 - val_loss: 5.6818 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 833ms/step - loss: 12.8109 - accuracy: 0.2500 - val_loss: 5.9412 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 877ms/step - loss: 15.6605 - accuracy: 0.1833 - val_loss: 6.2227 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 152ms/step - loss: 5.7178 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.681753158569336
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 14.2957 - accuracy: 0.1500 - val_loss: 5.6847 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 969ms/step - loss: 13.9187 - accuracy: 0.3000 - val_loss: 5.7500 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 876ms/step - loss: 13.7405 - accuracy: 0.3167 - val_loss: 5.8852 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 192ms/step - loss: 5.6779 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.6847381591796875
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.5, 64, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 13.7002 - accuracy: 0.1667 - val_loss: 5.7549 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 986ms/step - loss: 13.3694 - accuracy: 0.2500 - val_loss: 5.7566 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 833ms/step - loss: 16.4810 - accuracy: 0.1667 - val_loss: 5.8449 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 189ms/step - loss: 5.6414 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.754949569702148
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 994ms/step - loss: 11.8690 - accuracy: 0.1167 - val_loss: 4.8974 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 744ms/step - loss: 15.0007 - accuracy: 0.2000 - val_loss: 4.8851 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 613ms/step - loss: 15.9461 - accuracy: 0.1833 - val_loss: 4.8923 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 4/10
+2/2 [==============================] - 1s 606ms/step - loss: 14.2544 - accuracy: 0.2000 - val_loss: 4.9912 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 136ms/step - loss: 4.9483 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.885093688964844
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 834ms/step - loss: 11.9325 - accuracy: 0.2167 - val_loss: 4.9114 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 597ms/step - loss: 13.9755 - accuracy: 0.1167 - val_loss: 4.9157 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 604ms/step - loss: 16.2025 - accuracy: 0.1333 - val_loss: 4.9419 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 140ms/step - loss: 4.9375 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.911404609680176
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 2s 843ms/step - loss: 11.7383 - accuracy: 0.1333 - val_loss: 4.8307 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 708ms/step - loss: 15.3910 - accuracy: 0.2000 - val_loss: 4.8293 - val_accuracy: 0.6000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 634ms/step - loss: 12.2762 - accuracy: 0.2833 - val_loss: 4.8656 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 4/10
+2/2 [==============================] - 1s 703ms/step - loss: 12.3235 - accuracy: 0.2000 - val_loss: 4.9220 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 141ms/step - loss: 4.8450 - accuracy: 0.5714
+Test accuracy: 0.5714285969734192, Validation loss: 4.829344749450684
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 904ms/step - loss: 13.2704 - accuracy: 0.0833 - val_loss: 4.9543 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 774ms/step - loss: 12.8530 - accuracy: 0.2167 - val_loss: 4.9451 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 613ms/step - loss: 14.0612 - accuracy: 0.1167 - val_loss: 4.9690 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 696ms/step - loss: 13.0180 - accuracy: 0.1833 - val_loss: 5.0213 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 126ms/step - loss: 4.9716 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.945148468017578
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 868ms/step - loss: 10.4928 - accuracy: 0.2000 - val_loss: 4.9760 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 673ms/step - loss: 13.6524 - accuracy: 0.1167 - val_loss: 4.9365 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 760ms/step - loss: 12.0990 - accuracy: 0.3000 - val_loss: 4.9285 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 748ms/step - loss: 10.2436 - accuracy: 0.3667 - val_loss: 5.0142 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 5/10
+2/2 [==============================] - 2s 766ms/step - loss: 14.1559 - accuracy: 0.1500 - val_loss: 5.0722 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 141ms/step - loss: 4.9010 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.928466796875
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 856ms/step - loss: 11.9960 - accuracy: 0.1667 - val_loss: 4.9585 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 641ms/step - loss: 14.1724 - accuracy: 0.1500 - val_loss: 4.9738 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 759ms/step - loss: 13.1768 - accuracy: 0.2500 - val_loss: 4.9946 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 129ms/step - loss: 4.9282 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.958458423614502
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 913ms/step - loss: 12.2404 - accuracy: 0.2333 - val_loss: 4.9145 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 791ms/step - loss: 12.6018 - accuracy: 0.2167 - val_loss: 4.9125 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 637ms/step - loss: 15.3796 - accuracy: 0.2167 - val_loss: 4.9285 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 759ms/step - loss: 12.1188 - accuracy: 0.1333 - val_loss: 4.9547 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 134ms/step - loss: 4.9194 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.912485122680664
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 32, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 933ms/step - loss: 13.2406 - accuracy: 0.1333 - val_loss: 4.9260 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 738ms/step - loss: 14.2214 - accuracy: 0.1333 - val_loss: 4.8473 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 612ms/step - loss: 16.1427 - accuracy: 0.1667 - val_loss: 4.9369 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 797ms/step - loss: 12.3666 - accuracy: 0.2000 - val_loss: 5.0484 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 142ms/step - loss: 4.9198 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.847315788269043
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 14.2407 - accuracy: 0.1667 - val_loss: 5.5749 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 811ms/step - loss: 18.4110 - accuracy: 0.1833 - val_loss: 5.6429 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 834ms/step - loss: 16.8986 - accuracy: 0.2833 - val_loss: 5.8069 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 159ms/step - loss: 5.6037 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.5748748779296875
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 14.4839 - accuracy: 0.1000 - val_loss: 5.5548 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 3s 2s/step - loss: 19.3352 - accuracy: 0.1667 - val_loss: 5.6222 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 977ms/step - loss: 14.4662 - accuracy: 0.2833 - val_loss: 5.6519 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 167ms/step - loss: 5.5454 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.554760932922363
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 15.1136 - accuracy: 0.1667 - val_loss: 5.5096 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 834ms/step - loss: 16.8263 - accuracy: 0.2000 - val_loss: 5.5043 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 819ms/step - loss: 16.1933 - accuracy: 0.1667 - val_loss: 5.6341 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 855ms/step - loss: 15.8247 - accuracy: 0.2833 - val_loss: 5.7650 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 155ms/step - loss: 5.5187 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.504332542419434
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 13.7144 - accuracy: 0.0833 - val_loss: 5.5879 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 968ms/step - loss: 15.5146 - accuracy: 0.2000 - val_loss: 5.6373 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 809ms/step - loss: 18.4833 - accuracy: 0.1833 - val_loss: 5.5759 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 818ms/step - loss: 16.4086 - accuracy: 0.1833 - val_loss: 5.5706 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 5/20
+2/2 [==============================] - 2s 944ms/step - loss: 17.6944 - accuracy: 0.1833 - val_loss: 5.6947 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 6/20
+2/2 [==============================] - 2s 805ms/step - loss: 17.8582 - accuracy: 0.2667 - val_loss: 5.9842 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 203ms/step - loss: 5.7764 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.570553779602051
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 17.2034 - accuracy: 0.1500 - val_loss: 5.5653 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 990ms/step - loss: 17.0586 - accuracy: 0.1833 - val_loss: 5.5960 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 994ms/step - loss: 19.9524 - accuracy: 0.1333 - val_loss: 5.6174 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 166ms/step - loss: 5.6404 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.565295219421387
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 14.8266 - accuracy: 0.0833 - val_loss: 5.5855 - val_accuracy: 0.4000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 843ms/step - loss: 17.2826 - accuracy: 0.1500 - val_loss: 5.5906 - val_accuracy: 0.6000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 992ms/step - loss: 17.5201 - accuracy: 0.1833 - val_loss: 5.6642 - val_accuracy: 0.6000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 166ms/step - loss: 5.6024 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.585503578186035
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 4s 1s/step - loss: 13.1173 - accuracy: 0.2000 - val_loss: 5.4922 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 996ms/step - loss: 16.0854 - accuracy: 0.1667 - val_loss: 5.5751 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 840ms/step - loss: 15.0381 - accuracy: 0.3000 - val_loss: 5.6610 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 183ms/step - loss: 5.5332 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.492249488830566
+Saving results to CSV...
+
+Running training with params: (0.0005, 0.7, 64, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0005, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 13.8864 - accuracy: 0.1333 - val_loss: 5.5584 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 844ms/step - loss: 13.3712 - accuracy: 0.2667 - val_loss: 5.6456 - val_accuracy: 0.2000 - lr: 5.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 17.9250 - accuracy: 0.2167 - val_loss: 5.7200 - val_accuracy: 0.0000e+00 - lr: 5.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 155ms/step - loss: 5.4686 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.558412075042725
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 886ms/step - loss: 7.5058 - accuracy: 0.2500 - val_loss: 5.0033 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 720ms/step - loss: 8.5210 - accuracy: 0.2000 - val_loss: 5.0094 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 612ms/step - loss: 9.1637 - accuracy: 0.2000 - val_loss: 4.9985 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 1s 695ms/step - loss: 6.9008 - accuracy: 0.3833 - val_loss: 4.9896 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 1s 599ms/step - loss: 8.0354 - accuracy: 0.2167 - val_loss: 4.9776 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 6/10
+2/2 [==============================] - 1s 727ms/step - loss: 7.3517 - accuracy: 0.3000 - val_loss: 4.9657 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 7/10
+2/2 [==============================] - 1s 636ms/step - loss: 8.5968 - accuracy: 0.2000 - val_loss: 4.9447 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 8/10
+2/2 [==============================] - 1s 682ms/step - loss: 7.0133 - accuracy: 0.3500 - val_loss: 4.9309 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 9/10
+2/2 [==============================] - 1s 654ms/step - loss: 7.2415 - accuracy: 0.3500 - val_loss: 4.9222 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 10/10
+2/2 [==============================] - 1s 722ms/step - loss: 7.5012 - accuracy: 0.2500 - val_loss: 4.9147 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 124ms/step - loss: 5.0810 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.914685249328613
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 792ms/step - loss: 7.9099 - accuracy: 0.2000 - val_loss: 5.0554 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 585ms/step - loss: 8.6636 - accuracy: 0.2333 - val_loss: 5.0482 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 759ms/step - loss: 7.2541 - accuracy: 0.2667 - val_loss: 5.0408 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 1s 719ms/step - loss: 7.7445 - accuracy: 0.1333 - val_loss: 5.0339 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 1s 730ms/step - loss: 7.8318 - accuracy: 0.2167 - val_loss: 5.0299 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 1s 689ms/step - loss: 8.0908 - accuracy: 0.3333 - val_loss: 5.0354 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 7/20
+2/2 [==============================] - 1s 593ms/step - loss: 6.8917 - accuracy: 0.3667 - val_loss: 5.0429 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 139ms/step - loss: 5.0048 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.0298848152160645
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 932ms/step - loss: 8.2206 - accuracy: 0.2000 - val_loss: 5.0730 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 739ms/step - loss: 8.0243 - accuracy: 0.3000 - val_loss: 5.0867 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 652ms/step - loss: 7.9903 - accuracy: 0.2167 - val_loss: 5.0918 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 127ms/step - loss: 5.0427 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.073016166687012
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 886ms/step - loss: 8.1776 - accuracy: 0.2000 - val_loss: 5.0107 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 682ms/step - loss: 8.2166 - accuracy: 0.1500 - val_loss: 5.0101 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 596ms/step - loss: 7.6793 - accuracy: 0.2500 - val_loss: 5.0002 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 1s 761ms/step - loss: 7.9274 - accuracy: 0.1833 - val_loss: 4.9924 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 1s 603ms/step - loss: 7.9866 - accuracy: 0.2500 - val_loss: 4.9954 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 2s 744ms/step - loss: 7.9331 - accuracy: 0.2167 - val_loss: 4.9983 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 148ms/step - loss: 4.9866 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.992420673370361
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 959ms/step - loss: 8.2483 - accuracy: 0.1500 - val_loss: 5.0051 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 631ms/step - loss: 8.9519 - accuracy: 0.1333 - val_loss: 4.9971 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 787ms/step - loss: 8.6938 - accuracy: 0.1833 - val_loss: 4.9872 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 645ms/step - loss: 8.5141 - accuracy: 0.1833 - val_loss: 4.9903 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 2s 630ms/step - loss: 7.3235 - accuracy: 0.2500 - val_loss: 4.9937 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 136ms/step - loss: 5.0129 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.9871954917907715
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 867ms/step - loss: 8.9517 - accuracy: 0.1167 - val_loss: 5.0312 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 738ms/step - loss: 8.8991 - accuracy: 0.1833 - val_loss: 5.0317 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 745ms/step - loss: 8.0769 - accuracy: 0.1833 - val_loss: 5.0168 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 1s 625ms/step - loss: 7.3084 - accuracy: 0.3000 - val_loss: 5.0124 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 1s 604ms/step - loss: 7.4813 - accuracy: 0.2667 - val_loss: 5.0043 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 2s 740ms/step - loss: 7.8061 - accuracy: 0.2833 - val_loss: 4.9949 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 7/20
+2/2 [==============================] - 2s 715ms/step - loss: 8.0516 - accuracy: 0.2667 - val_loss: 4.9953 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 8/20
+2/2 [==============================] - 2s 799ms/step - loss: 7.3164 - accuracy: 0.3167 - val_loss: 5.0001 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 144ms/step - loss: 5.0652 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.99491024017334
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 805ms/step - loss: 8.5682 - accuracy: 0.1167 - val_loss: 5.0537 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 752ms/step - loss: 7.1178 - accuracy: 0.3333 - val_loss: 5.0429 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 619ms/step - loss: 7.8367 - accuracy: 0.2500 - val_loss: 5.0033 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 1s 622ms/step - loss: 6.9390 - accuracy: 0.3667 - val_loss: 4.9863 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 2s 618ms/step - loss: 7.3177 - accuracy: 0.2000 - val_loss: 4.9772 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 6/10
+2/2 [==============================] - 2s 782ms/step - loss: 8.0813 - accuracy: 0.1167 - val_loss: 4.9789 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 7/10
+2/2 [==============================] - 2s 669ms/step - loss: 7.9364 - accuracy: 0.2333 - val_loss: 4.9986 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 173ms/step - loss: 4.9669 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 4.977171421051025
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 32, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 970ms/step - loss: 7.9303 - accuracy: 0.1833 - val_loss: 5.0034 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 745ms/step - loss: 7.7333 - accuracy: 0.2333 - val_loss: 4.9863 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 655ms/step - loss: 8.4531 - accuracy: 0.1667 - val_loss: 4.9770 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 743ms/step - loss: 7.7496 - accuracy: 0.2000 - val_loss: 4.9683 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 2s 617ms/step - loss: 7.3812 - accuracy: 0.3000 - val_loss: 4.9720 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 2s 750ms/step - loss: 6.8463 - accuracy: 0.3167 - val_loss: 4.9720 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 139ms/step - loss: 5.0028 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.968277931213379
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 9.0984 - accuracy: 0.2667 - val_loss: 5.6458 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 955ms/step - loss: 8.6540 - accuracy: 0.2333 - val_loss: 5.6476 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 987ms/step - loss: 8.4309 - accuracy: 0.2500 - val_loss: 5.6642 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 186ms/step - loss: 5.6541 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.645771026611328
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 8.0995 - accuracy: 0.2000 - val_loss: 5.6538 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 837ms/step - loss: 9.4263 - accuracy: 0.2333 - val_loss: 5.6476 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 9.5290 - accuracy: 0.1667 - val_loss: 5.6312 - val_accuracy: 0.6000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 961ms/step - loss: 7.9146 - accuracy: 0.3667 - val_loss: 5.6236 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 2s 820ms/step - loss: 8.3322 - accuracy: 0.4000 - val_loss: 5.6215 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 2s 844ms/step - loss: 9.8258 - accuracy: 0.2000 - val_loss: 5.6127 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 7/20
+2/2 [==============================] - 2s 802ms/step - loss: 8.0747 - accuracy: 0.2667 - val_loss: 5.6231 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 8/20
+2/2 [==============================] - 2s 865ms/step - loss: 7.4546 - accuracy: 0.3833 - val_loss: 5.6465 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 164ms/step - loss: 5.6974 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.612655162811279
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 10.0184 - accuracy: 0.0500 - val_loss: 5.6203 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 970ms/step - loss: 9.4865 - accuracy: 0.1500 - val_loss: 5.6222 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 999ms/step - loss: 9.4010 - accuracy: 0.2167 - val_loss: 5.6433 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 158ms/step - loss: 5.6242 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.620307445526123
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 9.5360 - accuracy: 0.2333 - val_loss: 5.6095 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 10.6386 - accuracy: 0.2333 - val_loss: 5.6200 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 829ms/step - loss: 9.1921 - accuracy: 0.2333 - val_loss: 5.6241 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 176ms/step - loss: 5.5919 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.609465599060059
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 8.8038 - accuracy: 0.2000 - val_loss: 5.6952 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 1s/step - loss: 9.6047 - accuracy: 0.2333 - val_loss: 5.6778 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 973ms/step - loss: 10.2364 - accuracy: 0.2167 - val_loss: 5.6452 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 865ms/step - loss: 10.3599 - accuracy: 0.2167 - val_loss: 5.6030 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 2s 817ms/step - loss: 8.3788 - accuracy: 0.2500 - val_loss: 5.5696 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 6/10
+2/2 [==============================] - 2s 843ms/step - loss: 8.3113 - accuracy: 0.3667 - val_loss: 5.5501 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 7/10
+2/2 [==============================] - 2s 830ms/step - loss: 8.5239 - accuracy: 0.4000 - val_loss: 5.5290 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 8/10
+2/2 [==============================] - 2s 984ms/step - loss: 9.1980 - accuracy: 0.2833 - val_loss: 5.5228 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 9/10
+2/2 [==============================] - 2s 789ms/step - loss: 8.6847 - accuracy: 0.2667 - val_loss: 5.5259 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 10/10
+2/2 [==============================] - 2s 803ms/step - loss: 8.3670 - accuracy: 0.2667 - val_loss: 5.5370 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 203ms/step - loss: 5.5030 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.522805213928223
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 9.0095 - accuracy: 0.2000 - val_loss: 5.6588 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 9.2264 - accuracy: 0.2333 - val_loss: 5.6721 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 876ms/step - loss: 8.5661 - accuracy: 0.2500 - val_loss: 5.6785 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 169ms/step - loss: 5.6532 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.658809661865234
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 9.2713 - accuracy: 0.1333 - val_loss: 5.6669 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 994ms/step - loss: 9.0208 - accuracy: 0.2500 - val_loss: 5.6402 - val_accuracy: 0.6000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 840ms/step - loss: 8.9784 - accuracy: 0.1833 - val_loss: 5.6314 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 1s/step - loss: 8.5400 - accuracy: 0.2000 - val_loss: 5.6152 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 2s 1s/step - loss: 9.0760 - accuracy: 0.2167 - val_loss: 5.6023 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 6/10
+2/2 [==============================] - 2s 823ms/step - loss: 8.6085 - accuracy: 0.2500 - val_loss: 5.5798 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 7/10
+2/2 [==============================] - 2s 842ms/step - loss: 8.2163 - accuracy: 0.2833 - val_loss: 5.5612 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 8/10
+2/2 [==============================] - 2s 844ms/step - loss: 8.1998 - accuracy: 0.3000 - val_loss: 5.5511 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 9/10
+2/2 [==============================] - 2s 822ms/step - loss: 7.9256 - accuracy: 0.3500 - val_loss: 5.5455 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 10/10
+2/2 [==============================] - 2s 1s/step - loss: 7.8871 - accuracy: 0.2833 - val_loss: 5.5494 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 150ms/step - loss: 5.8355 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.5454607009887695
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.5, 64, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 9.5199 - accuracy: 0.2000 - val_loss: 5.6467 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 8.8778 - accuracy: 0.2833 - val_loss: 5.6602 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 819ms/step - loss: 10.9326 - accuracy: 0.2333 - val_loss: 5.6304 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 971ms/step - loss: 9.6403 - accuracy: 0.2500 - val_loss: 5.5853 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 2s 812ms/step - loss: 10.2477 - accuracy: 0.2000 - val_loss: 5.5517 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 2s 833ms/step - loss: 8.6828 - accuracy: 0.3333 - val_loss: 5.5246 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 7/20
+2/2 [==============================] - 2s 805ms/step - loss: 7.7669 - accuracy: 0.4000 - val_loss: 5.5005 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 8/20
+2/2 [==============================] - 2s 974ms/step - loss: 7.6023 - accuracy: 0.3167 - val_loss: 5.4686 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 9/20
+2/2 [==============================] - 2s 826ms/step - loss: 8.7115 - accuracy: 0.2667 - val_loss: 5.4289 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 10/20
+2/2 [==============================] - 2s 797ms/step - loss: 7.5083 - accuracy: 0.3167 - val_loss: 5.4095 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 11/20
+2/2 [==============================] - 2s 840ms/step - loss: 8.2436 - accuracy: 0.3333 - val_loss: 5.4021 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 12/20
+2/2 [==============================] - 2s 998ms/step - loss: 7.9710 - accuracy: 0.3333 - val_loss: 5.3785 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 13/20
+2/2 [==============================] - 2s 836ms/step - loss: 7.6837 - accuracy: 0.2833 - val_loss: 5.3386 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 14/20
+2/2 [==============================] - 2s 872ms/step - loss: 7.0945 - accuracy: 0.3333 - val_loss: 5.3052 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 15/20
+2/2 [==============================] - 2s 1s/step - loss: 6.4899 - accuracy: 0.4000 - val_loss: 5.2825 - val_accuracy: 0.6000 - lr: 1.0000e-04
+Epoch 16/20
+2/2 [==============================] - 2s 814ms/step - loss: 7.1752 - accuracy: 0.3667 - val_loss: 5.2685 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 17/20
+2/2 [==============================] - 2s 827ms/step - loss: 6.6969 - accuracy: 0.4167 - val_loss: 5.2713 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 18/20
+2/2 [==============================] - 2s 976ms/step - loss: 7.2098 - accuracy: 0.2500 - val_loss: 5.2842 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 169ms/step - loss: 5.9294 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.268489360809326
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 836ms/step - loss: 11.1001 - accuracy: 0.1500 - val_loss: 5.0037 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 688ms/step - loss: 9.7165 - accuracy: 0.2500 - val_loss: 5.0084 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 624ms/step - loss: 10.9333 - accuracy: 0.0833 - val_loss: 5.0161 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 131ms/step - loss: 5.0225 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.003689289093018
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 895ms/step - loss: 12.2473 - accuracy: 0.1333 - val_loss: 4.9903 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 734ms/step - loss: 10.7591 - accuracy: 0.2333 - val_loss: 4.9941 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 764ms/step - loss: 12.7599 - accuracy: 0.0833 - val_loss: 4.9962 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 149ms/step - loss: 5.0061 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.990307331085205
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 2s 825ms/step - loss: 10.8647 - accuracy: 0.1167 - val_loss: 4.9968 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 728ms/step - loss: 11.7082 - accuracy: 0.1333 - val_loss: 4.9828 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 709ms/step - loss: 12.3075 - accuracy: 0.1000 - val_loss: 4.9758 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 1s 569ms/step - loss: 9.7972 - accuracy: 0.2500 - val_loss: 4.9741 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 1s 599ms/step - loss: 10.9637 - accuracy: 0.1167 - val_loss: 4.9767 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 6/10
+2/2 [==============================] - 1s 599ms/step - loss: 9.1399 - accuracy: 0.2500 - val_loss: 4.9864 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 129ms/step - loss: 5.0091 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.97410774230957
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 875ms/step - loss: 11.6446 - accuracy: 0.1833 - val_loss: 4.9758 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 734ms/step - loss: 11.4573 - accuracy: 0.1667 - val_loss: 4.9751 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 640ms/step - loss: 13.3052 - accuracy: 0.1167 - val_loss: 4.9727 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 1s 721ms/step - loss: 10.2465 - accuracy: 0.2333 - val_loss: 4.9674 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 1s 591ms/step - loss: 11.6282 - accuracy: 0.1333 - val_loss: 4.9684 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 6/20
+2/2 [==============================] - 1s 609ms/step - loss: 11.0643 - accuracy: 0.2000 - val_loss: 4.9725 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 137ms/step - loss: 4.9682 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.967434883117676
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 944ms/step - loss: 12.7520 - accuracy: 0.1167 - val_loss: 4.9676 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 580ms/step - loss: 10.9486 - accuracy: 0.2333 - val_loss: 4.9720 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 1s 700ms/step - loss: 10.6817 - accuracy: 0.1333 - val_loss: 4.9823 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 143ms/step - loss: 4.9671 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.967561721801758
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 829ms/step - loss: 12.6655 - accuracy: 0.1500 - val_loss: 5.0000 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 772ms/step - loss: 10.3807 - accuracy: 0.2667 - val_loss: 4.9964 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 734ms/step - loss: 11.0149 - accuracy: 0.2333 - val_loss: 4.9975 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 632ms/step - loss: 11.4914 - accuracy: 0.1167 - val_loss: 5.0032 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 132ms/step - loss: 4.9836 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.996402740478516
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 822ms/step - loss: 11.4363 - accuracy: 0.2167 - val_loss: 4.9592 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 1s 625ms/step - loss: 12.0427 - accuracy: 0.1333 - val_loss: 4.9670 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 800ms/step - loss: 12.0128 - accuracy: 0.0833 - val_loss: 4.9644 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 171ms/step - loss: 4.9623 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.959245681762695
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 32, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 826ms/step - loss: 13.2608 - accuracy: 0.1000 - val_loss: 4.9774 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 1s 749ms/step - loss: 11.0367 - accuracy: 0.1333 - val_loss: 4.9722 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 1s 731ms/step - loss: 11.3245 - accuracy: 0.2333 - val_loss: 4.9693 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 621ms/step - loss: 11.1079 - accuracy: 0.1833 - val_loss: 4.9729 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 1s 603ms/step - loss: 10.5910 - accuracy: 0.2000 - val_loss: 4.9820 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 131ms/step - loss: 4.9760 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.969332218170166
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.9219 - accuracy: 0.1667 - val_loss: 5.5928 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 808ms/step - loss: 13.3247 - accuracy: 0.1833 - val_loss: 5.5748 - val_accuracy: 0.8000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 976ms/step - loss: 12.9341 - accuracy: 0.1500 - val_loss: 5.5800 - val_accuracy: 0.6000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 827ms/step - loss: 10.6648 - accuracy: 0.2167 - val_loss: 5.5968 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 161ms/step - loss: 5.5726 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.574760437011719
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 12.7696 - accuracy: 0.1000 - val_loss: 5.6537 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 11.5167 - accuracy: 0.2500 - val_loss: 5.6487 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 936ms/step - loss: 12.2825 - accuracy: 0.1667 - val_loss: 5.6573 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 843ms/step - loss: 12.6321 - accuracy: 0.2333 - val_loss: 5.6764 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 173ms/step - loss: 5.6379 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.648653030395508
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.9672 - accuracy: 0.1667 - val_loss: 5.6492 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 962ms/step - loss: 11.7384 - accuracy: 0.2167 - val_loss: 5.6377 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 1000ms/step - loss: 10.4478 - accuracy: 0.2667 - val_loss: 5.6349 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 854ms/step - loss: 13.1466 - accuracy: 0.2167 - val_loss: 5.6335 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/10
+2/2 [==============================] - 2s 816ms/step - loss: 10.4705 - accuracy: 0.2500 - val_loss: 5.6358 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 6/10
+2/2 [==============================] - 2s 961ms/step - loss: 9.7776 - accuracy: 0.2833 - val_loss: 5.6392 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 163ms/step - loss: 5.6358 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.633511066436768
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 11.2025 - accuracy: 0.2333 - val_loss: 5.5831 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 966ms/step - loss: 12.6438 - accuracy: 0.1333 - val_loss: 5.5808 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 13.0386 - accuracy: 0.1667 - val_loss: 5.5861 - val_accuracy: 0.6000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 879ms/step - loss: 13.5286 - accuracy: 0.1333 - val_loss: 5.5975 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 207ms/step - loss: 5.6049 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.580783843994141
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.3919 - accuracy: 0.2000 - val_loss: 5.5923 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 996ms/step - loss: 10.7092 - accuracy: 0.2167 - val_loss: 5.5885 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 774ms/step - loss: 11.2647 - accuracy: 0.1667 - val_loss: 5.6027 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 854ms/step - loss: 11.9609 - accuracy: 0.2000 - val_loss: 5.6186 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 156ms/step - loss: 5.6042 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.588483810424805
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 12.3856 - accuracy: 0.1667 - val_loss: 5.6206 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 954ms/step - loss: 12.2297 - accuracy: 0.1667 - val_loss: 5.6234 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 847ms/step - loss: 10.2682 - accuracy: 0.2500 - val_loss: 5.6266 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 154ms/step - loss: 5.6241 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.620637893676758
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.4412 - accuracy: 0.1333 - val_loss: 5.6263 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/10
+2/2 [==============================] - 2s 1s/step - loss: 12.3185 - accuracy: 0.1500 - val_loss: 5.6220 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 3/10
+2/2 [==============================] - 2s 821ms/step - loss: 11.8543 - accuracy: 0.1833 - val_loss: 5.6250 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/10
+2/2 [==============================] - 2s 968ms/step - loss: 10.8181 - accuracy: 0.2333 - val_loss: 5.6352 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 152ms/step - loss: 5.6177 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.621951580047607
+Saving results to CSV...
+
+Running training with params: (0.0001, 0.7, 64, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 0.0001, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 10.9945 - accuracy: 0.1500 - val_loss: 5.6277 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 11.2058 - accuracy: 0.1833 - val_loss: 5.6146 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 11.9013 - accuracy: 0.1667 - val_loss: 5.6145 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 4/20
+2/2 [==============================] - 2s 869ms/step - loss: 11.7627 - accuracy: 0.1833 - val_loss: 5.6197 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 5/20
+2/2 [==============================] - 2s 869ms/step - loss: 12.6097 - accuracy: 0.2667 - val_loss: 5.6284 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Evaluating the model...
+1/1 [==============================] - 0s 165ms/step - loss: 5.6481 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.614500045776367
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 959ms/step - loss: 8.0577 - accuracy: 0.1667 - val_loss: 5.0018 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 623ms/step - loss: 8.4365 - accuracy: 0.0833 - val_loss: 4.9958 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 1s 647ms/step - loss: 7.6878 - accuracy: 0.1500 - val_loss: 4.9936 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 1s 722ms/step - loss: 7.8860 - accuracy: 0.1167 - val_loss: 4.9944 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 1s 606ms/step - loss: 8.0647 - accuracy: 0.2167 - val_loss: 4.9949 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 139ms/step - loss: 5.0071 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.993631839752197
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 835ms/step - loss: 8.5499 - accuracy: 0.1667 - val_loss: 4.9907 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 1s 636ms/step - loss: 8.5854 - accuracy: 0.2000 - val_loss: 4.9874 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 1s 628ms/step - loss: 8.9318 - accuracy: 0.1833 - val_loss: 4.9828 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 707ms/step - loss: 7.7250 - accuracy: 0.2000 - val_loss: 4.9828 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 744ms/step - loss: 8.1044 - accuracy: 0.2167 - val_loss: 4.9817 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 703ms/step - loss: 7.4085 - accuracy: 0.2667 - val_loss: 4.9805 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 1s 632ms/step - loss: 8.0178 - accuracy: 0.0833 - val_loss: 4.9790 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 1s 722ms/step - loss: 7.8860 - accuracy: 0.2333 - val_loss: 4.9782 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 1s 633ms/step - loss: 7.4950 - accuracy: 0.2333 - val_loss: 4.9786 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 1s 710ms/step - loss: 6.8219 - accuracy: 0.2000 - val_loss: 4.9802 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 135ms/step - loss: 4.9791 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.9781813621521
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 976ms/step - loss: 7.5403 - accuracy: 0.2000 - val_loss: 5.0018 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 670ms/step - loss: 7.7422 - accuracy: 0.1500 - val_loss: 4.9968 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 650ms/step - loss: 7.2968 - accuracy: 0.2333 - val_loss: 4.9934 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 2s 774ms/step - loss: 7.8656 - accuracy: 0.1667 - val_loss: 4.9909 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 594ms/step - loss: 8.1889 - accuracy: 0.1500 - val_loss: 4.9903 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 1s 608ms/step - loss: 7.3288 - accuracy: 0.1833 - val_loss: 4.9910 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 1s 609ms/step - loss: 7.3203 - accuracy: 0.2500 - val_loss: 4.9912 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 150ms/step - loss: 4.9941 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.990310192108154
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 933ms/step - loss: 9.0278 - accuracy: 0.1167 - val_loss: 4.9898 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 1s 685ms/step - loss: 8.2648 - accuracy: 0.2000 - val_loss: 4.9894 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 1s 608ms/step - loss: 8.3314 - accuracy: 0.1667 - val_loss: 4.9880 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 2s 732ms/step - loss: 8.5974 - accuracy: 0.2000 - val_loss: 4.9840 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 618ms/step - loss: 8.0095 - accuracy: 0.2167 - val_loss: 4.9790 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 613ms/step - loss: 7.5910 - accuracy: 0.2500 - val_loss: 4.9742 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 785ms/step - loss: 7.8765 - accuracy: 0.2333 - val_loss: 4.9687 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 2s 757ms/step - loss: 7.7905 - accuracy: 0.2333 - val_loss: 4.9627 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 630ms/step - loss: 7.6939 - accuracy: 0.2333 - val_loss: 4.9572 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 1s 668ms/step - loss: 8.4395 - accuracy: 0.1500 - val_loss: 4.9524 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 1s 741ms/step - loss: 7.9846 - accuracy: 0.1500 - val_loss: 4.9471 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 2s 738ms/step - loss: 7.2654 - accuracy: 0.2000 - val_loss: 4.9411 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 2s 628ms/step - loss: 6.9336 - accuracy: 0.1333 - val_loss: 4.9347 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 14/20
+2/2 [==============================] - 1s 598ms/step - loss: 7.7080 - accuracy: 0.1667 - val_loss: 4.9288 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 15/20
+2/2 [==============================] - 2s 751ms/step - loss: 7.4119 - accuracy: 0.2333 - val_loss: 4.9218 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 16/20
+2/2 [==============================] - 1s 624ms/step - loss: 7.0851 - accuracy: 0.3000 - val_loss: 4.9155 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 17/20
+2/2 [==============================] - 2s 627ms/step - loss: 7.0482 - accuracy: 0.2333 - val_loss: 4.9091 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 18/20
+2/2 [==============================] - 1s 725ms/step - loss: 6.6538 - accuracy: 0.2333 - val_loss: 4.9021 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 19/20
+2/2 [==============================] - 2s 645ms/step - loss: 7.0630 - accuracy: 0.2333 - val_loss: 4.8957 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 20/20
+2/2 [==============================] - 2s 736ms/step - loss: 7.7155 - accuracy: 0.2500 - val_loss: 4.8894 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 137ms/step - loss: 4.9684 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 4.889355659484863
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 971ms/step - loss: 8.8094 - accuracy: 0.1333 - val_loss: 4.9980 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 715ms/step - loss: 8.0469 - accuracy: 0.2333 - val_loss: 4.9972 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 1s 650ms/step - loss: 7.7053 - accuracy: 0.1500 - val_loss: 4.9966 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 1s 614ms/step - loss: 8.6252 - accuracy: 0.1167 - val_loss: 4.9995 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 654ms/step - loss: 7.6471 - accuracy: 0.1833 - val_loss: 5.0043 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 143ms/step - loss: 5.0264 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.996601104736328
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 940ms/step - loss: 8.2219 - accuracy: 0.2167 - val_loss: 5.0354 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 640ms/step - loss: 8.4315 - accuracy: 0.1667 - val_loss: 5.0293 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 679ms/step - loss: 8.5104 - accuracy: 0.1000 - val_loss: 5.0254 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 728ms/step - loss: 7.1523 - accuracy: 0.2167 - val_loss: 5.0232 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 731ms/step - loss: 8.6733 - accuracy: 0.1500 - val_loss: 5.0256 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 728ms/step - loss: 7.2817 - accuracy: 0.2167 - val_loss: 5.0307 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 127ms/step - loss: 5.0169 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.023233890533447
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 939ms/step - loss: 8.5572 - accuracy: 0.1500 - val_loss: 4.9952 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 712ms/step - loss: 8.3393 - accuracy: 0.1833 - val_loss: 4.9984 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 1s 617ms/step - loss: 8.1163 - accuracy: 0.2000 - val_loss: 4.9971 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 155ms/step - loss: 5.0077 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.995152473449707
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 32, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 940ms/step - loss: 8.2183 - accuracy: 0.1333 - val_loss: 5.0107 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 1s 606ms/step - loss: 8.1935 - accuracy: 0.1833 - val_loss: 5.0090 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 1s 731ms/step - loss: 7.4114 - accuracy: 0.2000 - val_loss: 5.0060 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 618ms/step - loss: 8.0095 - accuracy: 0.1333 - val_loss: 5.0007 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 720ms/step - loss: 7.8330 - accuracy: 0.1667 - val_loss: 4.9935 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 649ms/step - loss: 7.3794 - accuracy: 0.2500 - val_loss: 4.9844 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 1s 708ms/step - loss: 7.1918 - accuracy: 0.2667 - val_loss: 4.9748 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 1s 748ms/step - loss: 7.4145 - accuracy: 0.1833 - val_loss: 4.9639 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 1s 637ms/step - loss: 8.1024 - accuracy: 0.1833 - val_loss: 4.9535 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 1s 601ms/step - loss: 8.0739 - accuracy: 0.1667 - val_loss: 4.9421 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 1s 743ms/step - loss: 7.4899 - accuracy: 0.2500 - val_loss: 4.9299 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 1s 587ms/step - loss: 7.8900 - accuracy: 0.2333 - val_loss: 4.9186 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 1s 772ms/step - loss: 7.4517 - accuracy: 0.2167 - val_loss: 4.9086 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 14/20
+2/2 [==============================] - 1s 718ms/step - loss: 7.6450 - accuracy: 0.2000 - val_loss: 4.8995 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 15/20
+2/2 [==============================] - 1s 752ms/step - loss: 7.3996 - accuracy: 0.2000 - val_loss: 4.8917 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 16/20
+2/2 [==============================] - 1s 596ms/step - loss: 8.1407 - accuracy: 0.2000 - val_loss: 4.8837 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 17/20
+2/2 [==============================] - 1s 698ms/step - loss: 7.3982 - accuracy: 0.2333 - val_loss: 4.8777 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 18/20
+2/2 [==============================] - 1s 754ms/step - loss: 7.2702 - accuracy: 0.1833 - val_loss: 4.8719 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 19/20
+2/2 [==============================] - 1s 655ms/step - loss: 6.7298 - accuracy: 0.2667 - val_loss: 4.8662 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 20/20
+2/2 [==============================] - 2s 620ms/step - loss: 7.7895 - accuracy: 0.2000 - val_loss: 4.8595 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 129ms/step - loss: 5.0649 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.859452247619629
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 8.5424 - accuracy: 0.2167 - val_loss: 5.6360 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 845ms/step - loss: 9.3889 - accuracy: 0.1167 - val_loss: 5.6358 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 1s/step - loss: 8.6164 - accuracy: 0.1667 - val_loss: 5.6346 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 2s 977ms/step - loss: 9.0236 - accuracy: 0.1333 - val_loss: 5.6304 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 833ms/step - loss: 8.3750 - accuracy: 0.2000 - val_loss: 5.6267 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 2s 833ms/step - loss: 8.9577 - accuracy: 0.2000 - val_loss: 5.6240 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 2s 969ms/step - loss: 8.1275 - accuracy: 0.2500 - val_loss: 5.6213 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 8/10
+2/2 [==============================] - 2s 962ms/step - loss: 7.7947 - accuracy: 0.2667 - val_loss: 5.6192 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 9/10
+2/2 [==============================] - 2s 990ms/step - loss: 8.0000 - accuracy: 0.2167 - val_loss: 5.6167 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 10/10
+2/2 [==============================] - 2s 850ms/step - loss: 7.6632 - accuracy: 0.2500 - val_loss: 5.6145 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 151ms/step - loss: 5.5893 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.614507675170898
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 8.8934 - accuracy: 0.1500 - val_loss: 5.6317 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 832ms/step - loss: 7.6059 - accuracy: 0.2000 - val_loss: 5.6274 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 994ms/step - loss: 8.8345 - accuracy: 0.1500 - val_loss: 5.6266 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 2s 1s/step - loss: 8.8083 - accuracy: 0.1333 - val_loss: 5.6260 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 2s 983ms/step - loss: 8.9612 - accuracy: 0.1500 - val_loss: 5.6247 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 2s 813ms/step - loss: 8.5858 - accuracy: 0.0833 - val_loss: 5.6233 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 809ms/step - loss: 7.9296 - accuracy: 0.1833 - val_loss: 5.6209 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 2s 836ms/step - loss: 7.5452 - accuracy: 0.2333 - val_loss: 5.6168 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 962ms/step - loss: 8.5258 - accuracy: 0.1167 - val_loss: 5.6125 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 2s 965ms/step - loss: 8.4762 - accuracy: 0.1500 - val_loss: 5.6099 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 2s 987ms/step - loss: 7.6225 - accuracy: 0.2833 - val_loss: 5.6089 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 2s 997ms/step - loss: 7.9712 - accuracy: 0.2000 - val_loss: 5.6097 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 2s 1s/step - loss: 7.6964 - accuracy: 0.2833 - val_loss: 5.6111 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 185ms/step - loss: 5.6431 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.608908653259277
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 9.2296 - accuracy: 0.1833 - val_loss: 5.6466 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 975ms/step - loss: 8.6335 - accuracy: 0.1167 - val_loss: 5.6349 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 960ms/step - loss: 9.1485 - accuracy: 0.1667 - val_loss: 5.6286 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 2s 945ms/step - loss: 8.6417 - accuracy: 0.2167 - val_loss: 5.6295 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 822ms/step - loss: 8.4383 - accuracy: 0.1833 - val_loss: 5.6297 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 164ms/step - loss: 5.6213 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.628623008728027
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 8.5522 - accuracy: 0.1500 - val_loss: 5.6291 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 992ms/step - loss: 8.3533 - accuracy: 0.2167 - val_loss: 5.6261 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 987ms/step - loss: 8.6747 - accuracy: 0.1667 - val_loss: 5.6244 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 2s 1s/step - loss: 7.9138 - accuracy: 0.1667 - val_loss: 5.6244 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 2s 1s/step - loss: 7.8423 - accuracy: 0.1833 - val_loss: 5.6232 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 2s 987ms/step - loss: 7.4902 - accuracy: 0.3000 - val_loss: 5.6227 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 831ms/step - loss: 8.0786 - accuracy: 0.2000 - val_loss: 5.6197 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 2s 833ms/step - loss: 7.7644 - accuracy: 0.2667 - val_loss: 5.6172 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 803ms/step - loss: 7.8717 - accuracy: 0.2500 - val_loss: 5.6152 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 2s 823ms/step - loss: 7.6131 - accuracy: 0.2500 - val_loss: 5.6122 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 2s 862ms/step - loss: 8.0523 - accuracy: 0.3333 - val_loss: 5.6080 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 2s 814ms/step - loss: 8.5320 - accuracy: 0.2167 - val_loss: 5.6044 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 2s 828ms/step - loss: 8.1790 - accuracy: 0.2167 - val_loss: 5.6014 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 14/20
+2/2 [==============================] - 2s 823ms/step - loss: 7.7398 - accuracy: 0.2000 - val_loss: 5.5989 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 15/20
+2/2 [==============================] - 2s 824ms/step - loss: 7.7184 - accuracy: 0.3167 - val_loss: 5.5964 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 16/20
+2/2 [==============================] - 2s 811ms/step - loss: 7.6417 - accuracy: 0.2667 - val_loss: 5.5943 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 17/20
+2/2 [==============================] - 2s 819ms/step - loss: 7.6726 - accuracy: 0.2000 - val_loss: 5.5931 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 18/20
+2/2 [==============================] - 2s 796ms/step - loss: 7.9744 - accuracy: 0.1833 - val_loss: 5.5932 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 19/20
+2/2 [==============================] - 2s 807ms/step - loss: 8.0426 - accuracy: 0.1833 - val_loss: 5.5928 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 20/20
+2/2 [==============================] - 2s 969ms/step - loss: 7.5432 - accuracy: 0.2333 - val_loss: 5.5943 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 167ms/step - loss: 5.7773 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.592823028564453
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 9.5951 - accuracy: 0.2000 - val_loss: 5.6572 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 797ms/step - loss: 9.2499 - accuracy: 0.2667 - val_loss: 5.6597 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 803ms/step - loss: 8.3370 - accuracy: 0.1167 - val_loss: 5.6623 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 183ms/step - loss: 5.6613 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.657227516174316
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 8.6832 - accuracy: 0.1333 - val_loss: 5.6292 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 9.4796 - accuracy: 0.2333 - val_loss: 5.6352 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 8.1292 - accuracy: 0.2833 - val_loss: 5.6377 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 157ms/step - loss: 5.6324 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.629172325134277
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 9.2026 - accuracy: 0.1667 - val_loss: 5.6523 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 819ms/step - loss: 9.5126 - accuracy: 0.1667 - val_loss: 5.6552 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 3s 2s/step - loss: 8.1747 - accuracy: 0.2667 - val_loss: 5.6522 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 2s 858ms/step - loss: 8.1006 - accuracy: 0.1833 - val_loss: 5.6476 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 1s/step - loss: 8.2678 - accuracy: 0.2000 - val_loss: 5.6430 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 2s 885ms/step - loss: 8.6523 - accuracy: 0.1833 - val_loss: 5.6360 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 2s 897ms/step - loss: 8.6350 - accuracy: 0.1667 - val_loss: 5.6307 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 8/10
+2/2 [==============================] - 2s 1s/step - loss: 8.1838 - accuracy: 0.1667 - val_loss: 5.6264 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 9/10
+2/2 [==============================] - 2s 1s/step - loss: 7.7277 - accuracy: 0.1667 - val_loss: 5.6229 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 10/10
+2/2 [==============================] - 2s 849ms/step - loss: 7.8041 - accuracy: 0.2500 - val_loss: 5.6207 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 155ms/step - loss: 5.5836 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 5.620733737945557
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.5, 64, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.5, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 8.9636 - accuracy: 0.2500 - val_loss: 5.6419 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 987ms/step - loss: 8.3368 - accuracy: 0.2167 - val_loss: 5.6437 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 820ms/step - loss: 8.2039 - accuracy: 0.1500 - val_loss: 5.6516 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 202ms/step - loss: 5.6279 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.641902923583984
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 829ms/step - loss: 9.9839 - accuracy: 0.1667 - val_loss: 4.9702 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 674ms/step - loss: 11.2951 - accuracy: 0.1500 - val_loss: 4.9641 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 774ms/step - loss: 10.8202 - accuracy: 0.1833 - val_loss: 4.9562 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 1s 740ms/step - loss: 10.6570 - accuracy: 0.2000 - val_loss: 4.9479 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 1s 630ms/step - loss: 12.2260 - accuracy: 0.1167 - val_loss: 4.9413 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 1s 640ms/step - loss: 12.9743 - accuracy: 0.1167 - val_loss: 4.9354 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 1s 653ms/step - loss: 9.9241 - accuracy: 0.2333 - val_loss: 4.9288 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 8/10
+2/2 [==============================] - 1s 740ms/step - loss: 11.1751 - accuracy: 0.2000 - val_loss: 4.9224 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/10
+2/2 [==============================] - 1s 657ms/step - loss: 11.2366 - accuracy: 0.0667 - val_loss: 4.9164 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 10/10
+2/2 [==============================] - 1s 617ms/step - loss: 11.6477 - accuracy: 0.0833 - val_loss: 4.9090 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 160ms/step - loss: 4.9681 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.9090142250061035
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 820ms/step - loss: 11.9398 - accuracy: 0.1667 - val_loss: 5.0163 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 750ms/step - loss: 11.7688 - accuracy: 0.1000 - val_loss: 5.0136 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 743ms/step - loss: 10.7917 - accuracy: 0.2167 - val_loss: 5.0118 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 617ms/step - loss: 10.2401 - accuracy: 0.2167 - val_loss: 5.0069 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 741ms/step - loss: 11.3172 - accuracy: 0.2333 - val_loss: 5.0039 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 748ms/step - loss: 10.8013 - accuracy: 0.0833 - val_loss: 5.0010 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 737ms/step - loss: 10.9299 - accuracy: 0.1667 - val_loss: 4.9991 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 1s 613ms/step - loss: 10.4399 - accuracy: 0.2000 - val_loss: 4.9972 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 1s 754ms/step - loss: 13.0254 - accuracy: 0.1500 - val_loss: 4.9953 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 2s 736ms/step - loss: 10.8568 - accuracy: 0.1500 - val_loss: 4.9941 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 1s 633ms/step - loss: 10.1053 - accuracy: 0.1167 - val_loss: 4.9936 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 1s 755ms/step - loss: 9.6732 - accuracy: 0.1833 - val_loss: 4.9932 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 1s 629ms/step - loss: 10.6215 - accuracy: 0.2333 - val_loss: 4.9930 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 14/20
+2/2 [==============================] - 1s 613ms/step - loss: 10.8517 - accuracy: 0.1333 - val_loss: 4.9927 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 15/20
+2/2 [==============================] - 1s 623ms/step - loss: 9.4915 - accuracy: 0.1500 - val_loss: 4.9924 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 16/20
+2/2 [==============================] - 1s 716ms/step - loss: 9.5535 - accuracy: 0.1833 - val_loss: 4.9930 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 17/20
+2/2 [==============================] - 1s 627ms/step - loss: 10.7387 - accuracy: 0.1833 - val_loss: 4.9939 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 133ms/step - loss: 5.0785 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 4.9924397468566895
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 966ms/step - loss: 11.4599 - accuracy: 0.1000 - val_loss: 5.0715 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 632ms/step - loss: 10.6550 - accuracy: 0.2000 - val_loss: 5.0633 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 1s 721ms/step - loss: 9.7359 - accuracy: 0.1500 - val_loss: 5.0560 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 1s 606ms/step - loss: 11.7135 - accuracy: 0.1333 - val_loss: 5.0483 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 1s 636ms/step - loss: 11.4499 - accuracy: 0.1833 - val_loss: 5.0402 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 1s 604ms/step - loss: 11.2069 - accuracy: 0.1833 - val_loss: 5.0322 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 1s 618ms/step - loss: 10.2428 - accuracy: 0.2167 - val_loss: 5.0235 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/10
+2/2 [==============================] - 1s 625ms/step - loss: 11.0810 - accuracy: 0.2500 - val_loss: 5.0166 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/10
+2/2 [==============================] - 1s 630ms/step - loss: 11.2788 - accuracy: 0.1333 - val_loss: 5.0108 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/10
+2/2 [==============================] - 1s 736ms/step - loss: 11.6616 - accuracy: 0.2500 - val_loss: 5.0073 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 130ms/step - loss: 5.0430 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.007290840148926
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 975ms/step - loss: 11.9715 - accuracy: 0.2167 - val_loss: 5.0018 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 1s 744ms/step - loss: 11.7037 - accuracy: 0.2167 - val_loss: 4.9962 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 1s 724ms/step - loss: 12.0297 - accuracy: 0.1333 - val_loss: 4.9900 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 607ms/step - loss: 10.3955 - accuracy: 0.2000 - val_loss: 4.9830 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 729ms/step - loss: 12.9801 - accuracy: 0.1333 - val_loss: 4.9761 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 705ms/step - loss: 10.0438 - accuracy: 0.2333 - val_loss: 4.9723 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 779ms/step - loss: 10.3627 - accuracy: 0.2667 - val_loss: 4.9719 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 1s 581ms/step - loss: 10.2481 - accuracy: 0.1833 - val_loss: 4.9748 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 680ms/step - loss: 11.0312 - accuracy: 0.1667 - val_loss: 4.9794 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 141ms/step - loss: 4.9830 - accuracy: 0.4286
+Test accuracy: 0.4285714328289032, Validation loss: 4.97187614440918
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 838ms/step - loss: 13.0643 - accuracy: 0.1167 - val_loss: 5.0291 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 787ms/step - loss: 12.4136 - accuracy: 0.0667 - val_loss: 5.0169 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 771ms/step - loss: 10.2278 - accuracy: 0.2333 - val_loss: 5.0076 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 1s 673ms/step - loss: 11.2447 - accuracy: 0.1500 - val_loss: 4.9991 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 1s 731ms/step - loss: 12.6219 - accuracy: 0.1167 - val_loss: 4.9941 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 1s 741ms/step - loss: 10.5801 - accuracy: 0.1833 - val_loss: 4.9909 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 1s 640ms/step - loss: 11.7286 - accuracy: 0.0667 - val_loss: 4.9875 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 8/10
+2/2 [==============================] - 1s 647ms/step - loss: 11.2945 - accuracy: 0.1500 - val_loss: 4.9861 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 9/10
+2/2 [==============================] - 2s 740ms/step - loss: 10.9447 - accuracy: 0.2500 - val_loss: 4.9848 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 10/10
+2/2 [==============================] - 1s 579ms/step - loss: 9.8735 - accuracy: 0.2667 - val_loss: 4.9853 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 156ms/step - loss: 5.0178 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 4.984777450561523
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 940ms/step - loss: 10.8508 - accuracy: 0.2000 - val_loss: 5.0089 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 1s 720ms/step - loss: 11.3364 - accuracy: 0.1833 - val_loss: 5.0067 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 1s 615ms/step - loss: 11.5224 - accuracy: 0.1833 - val_loss: 5.0050 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 599ms/step - loss: 11.6637 - accuracy: 0.1500 - val_loss: 5.0049 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 618ms/step - loss: 11.0793 - accuracy: 0.2167 - val_loss: 5.0037 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 1s 710ms/step - loss: 11.3217 - accuracy: 0.2000 - val_loss: 5.0023 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 1s 726ms/step - loss: 9.8016 - accuracy: 0.2333 - val_loss: 5.0030 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 1s 745ms/step - loss: 9.8463 - accuracy: 0.2000 - val_loss: 5.0056 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 142ms/step - loss: 5.0453 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.0022711753845215
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 2s 902ms/step - loss: 12.6526 - accuracy: 0.1833 - val_loss: 5.0128 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 1s 693ms/step - loss: 13.2024 - accuracy: 0.1333 - val_loss: 5.0124 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 769ms/step - loss: 11.5508 - accuracy: 0.1833 - val_loss: 5.0124 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 1s 632ms/step - loss: 11.5540 - accuracy: 0.1333 - val_loss: 5.0137 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 128ms/step - loss: 5.0186 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.012406826019287
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 32, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 32
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 2s 900ms/step - loss: 11.5017 - accuracy: 0.2333 - val_loss: 5.0177 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 1s 751ms/step - loss: 10.8679 - accuracy: 0.2167 - val_loss: 5.0159 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 1s 651ms/step - loss: 11.2790 - accuracy: 0.1167 - val_loss: 5.0156 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 1s 593ms/step - loss: 10.9239 - accuracy: 0.1000 - val_loss: 5.0216 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 1s 601ms/step - loss: 11.8438 - accuracy: 0.1500 - val_loss: 5.0300 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 132ms/step - loss: 5.0174 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.015564918518066
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 30, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.4480 - accuracy: 0.1667 - val_loss: 5.6660 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 820ms/step - loss: 10.4927 - accuracy: 0.1667 - val_loss: 5.6667 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 984ms/step - loss: 10.5366 - accuracy: 0.2167 - val_loss: 5.6681 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 168ms/step - loss: 5.6484 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.665975570678711
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 30, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 12.6437 - accuracy: 0.1500 - val_loss: 5.6511 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 817ms/step - loss: 13.7574 - accuracy: 0.1833 - val_loss: 5.6466 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 836ms/step - loss: 10.9371 - accuracy: 0.1500 - val_loss: 5.6428 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 2s 978ms/step - loss: 12.6333 - accuracy: 0.1667 - val_loss: 5.6389 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 2s 807ms/step - loss: 11.2154 - accuracy: 0.1500 - val_loss: 5.6372 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 2s 949ms/step - loss: 11.5175 - accuracy: 0.1500 - val_loss: 5.6364 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 832ms/step - loss: 12.7037 - accuracy: 0.0833 - val_loss: 5.6349 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 2s 816ms/step - loss: 11.6778 - accuracy: 0.1000 - val_loss: 5.6325 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 1s/step - loss: 10.6318 - accuracy: 0.2000 - val_loss: 5.6301 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 2s 957ms/step - loss: 11.2723 - accuracy: 0.2333 - val_loss: 5.6272 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 2s 811ms/step - loss: 11.2927 - accuracy: 0.1167 - val_loss: 5.6252 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 2s 1s/step - loss: 10.4781 - accuracy: 0.2167 - val_loss: 5.6244 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 2s 859ms/step - loss: 11.1513 - accuracy: 0.1833 - val_loss: 5.6227 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 14/20
+2/2 [==============================] - 2s 995ms/step - loss: 10.5135 - accuracy: 0.2500 - val_loss: 5.6206 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 15/20
+2/2 [==============================] - 2s 832ms/step - loss: 10.5166 - accuracy: 0.2167 - val_loss: 5.6201 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 16/20
+2/2 [==============================] - 3s 848ms/step - loss: 10.4263 - accuracy: 0.1667 - val_loss: 5.6223 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 17/20
+2/2 [==============================] - 2s 844ms/step - loss: 10.9755 - accuracy: 0.1667 - val_loss: 5.6250 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 152ms/step - loss: 5.7330 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.620112419128418
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 30, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 12.0075 - accuracy: 0.1167 - val_loss: 5.6703 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 976ms/step - loss: 11.7450 - accuracy: 0.1667 - val_loss: 5.6644 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 991ms/step - loss: 11.5151 - accuracy: 0.1167 - val_loss: 5.6593 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 2s 972ms/step - loss: 11.3354 - accuracy: 0.1833 - val_loss: 5.6549 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 827ms/step - loss: 12.8289 - accuracy: 0.1167 - val_loss: 5.6527 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 2s 845ms/step - loss: 12.0816 - accuracy: 0.1333 - val_loss: 5.6515 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 7/10
+2/2 [==============================] - 2s 990ms/step - loss: 10.3119 - accuracy: 0.2333 - val_loss: 5.6504 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 8/10
+2/2 [==============================] - 2s 1s/step - loss: 11.9252 - accuracy: 0.1333 - val_loss: 5.6506 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 9/10
+2/2 [==============================] - 2s 840ms/step - loss: 10.4931 - accuracy: 0.2167 - val_loss: 5.6519 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 168ms/step - loss: 5.6503 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.650356292724609
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 30, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 11.6537 - accuracy: 0.1167 - val_loss: 5.6288 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 772ms/step - loss: 11.8498 - accuracy: 0.1667 - val_loss: 5.6303 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 864ms/step - loss: 12.9316 - accuracy: 0.1667 - val_loss: 5.6280 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 2s 794ms/step - loss: 13.2770 - accuracy: 0.2000 - val_loss: 5.6228 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 2s 986ms/step - loss: 12.7778 - accuracy: 0.1667 - val_loss: 5.6177 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 2s 984ms/step - loss: 11.7208 - accuracy: 0.1500 - val_loss: 5.6118 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 998ms/step - loss: 12.6110 - accuracy: 0.1167 - val_loss: 5.6056 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 2s 1s/step - loss: 11.8444 - accuracy: 0.2000 - val_loss: 5.5998 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 1s/step - loss: 12.4076 - accuracy: 0.1500 - val_loss: 5.5942 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 2s 828ms/step - loss: 11.3864 - accuracy: 0.2333 - val_loss: 5.5891 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 11/20
+2/2 [==============================] - 2s 989ms/step - loss: 12.2249 - accuracy: 0.1000 - val_loss: 5.5856 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 12/20
+2/2 [==============================] - 2s 1s/step - loss: 12.4302 - accuracy: 0.0833 - val_loss: 5.5814 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 13/20
+2/2 [==============================] - 2s 1s/step - loss: 12.0763 - accuracy: 0.1000 - val_loss: 5.5777 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 14/20
+2/2 [==============================] - 2s 830ms/step - loss: 11.8358 - accuracy: 0.1333 - val_loss: 5.5727 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 15/20
+2/2 [==============================] - 2s 1000ms/step - loss: 11.3869 - accuracy: 0.2000 - val_loss: 5.5680 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 16/20
+2/2 [==============================] - 2s 975ms/step - loss: 11.2283 - accuracy: 0.1333 - val_loss: 5.5635 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 17/20
+2/2 [==============================] - 2s 849ms/step - loss: 9.7136 - accuracy: 0.2167 - val_loss: 5.5599 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 18/20
+2/2 [==============================] - 2s 1s/step - loss: 11.0823 - accuracy: 0.2000 - val_loss: 5.5574 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 19/20
+2/2 [==============================] - 2s 826ms/step - loss: 11.5409 - accuracy: 0.1500 - val_loss: 5.5568 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 20/20
+2/2 [==============================] - 2s 799ms/step - loss: 11.6882 - accuracy: 0.1667 - val_loss: 5.5586 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 153ms/step - loss: 5.6067 - accuracy: 0.1429
+Test accuracy: 0.1428571492433548, Validation loss: 5.556774139404297
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 50, 0.2, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 3s 1s/step - loss: 11.1677 - accuracy: 0.1500 - val_loss: 5.6467 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 791ms/step - loss: 11.8251 - accuracy: 0.2000 - val_loss: 5.6443 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 1s/step - loss: 12.1195 - accuracy: 0.1333 - val_loss: 5.6429 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 4/10
+2/2 [==============================] - 2s 1s/step - loss: 11.8624 - accuracy: 0.2333 - val_loss: 5.6410 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/10
+2/2 [==============================] - 2s 995ms/step - loss: 12.1015 - accuracy: 0.2667 - val_loss: 5.6442 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/10
+2/2 [==============================] - 2s 991ms/step - loss: 11.3242 - accuracy: 0.1833 - val_loss: 5.6469 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 172ms/step - loss: 5.6588 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.640958786010742
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 50, 0.2, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 12.1189 - accuracy: 0.1833 - val_loss: 5.6321 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 943ms/step - loss: 12.4012 - accuracy: 0.1000 - val_loss: 5.6332 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 13.6613 - accuracy: 0.1833 - val_loss: 5.6343 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 147ms/step - loss: 5.6302 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.632133483886719
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 50, 0.4, 10)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/10
+2/2 [==============================] - 4s 2s/step - loss: 12.3336 - accuracy: 0.1833 - val_loss: 5.6455 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/10
+2/2 [==============================] - 2s 951ms/step - loss: 11.4814 - accuracy: 0.1833 - val_loss: 5.6482 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 3/10
+2/2 [==============================] - 2s 998ms/step - loss: 12.4425 - accuracy: 0.1667 - val_loss: 5.6542 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 185ms/step - loss: 5.6455 - accuracy: 0.2857
+Test accuracy: 0.2857142984867096, Validation loss: 5.645521640777588
+Saving results to CSV...
+
+Running training with params: (1e-05, 0.7, 64, 50, 0.4, 20)
+Loading training data...
+Found 60 images belonging to 6 classes.
+Loading validation data...
+Found 5 images belonging to 6 classes.
+Loading test data...
+Found 7 images belonging to 6 classes.
+Number of classes: 6
+Computing class weights...
+Class weights: {0: 1.0, 1: 1.0, 2: 1.0, 3: 1.0, 4: 1.0, 5: 1.0}
+Creating model with learning rate: 1e-05, dropout: 0.7, filters: 64
+Model created and compiled.
+Training the model...
+Epoch 1/20
+2/2 [==============================] - 3s 1s/step - loss: 10.9711 - accuracy: 0.1500 - val_loss: 5.6673 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+2/2 [==============================] - 2s 1s/step - loss: 11.6458 - accuracy: 0.2000 - val_loss: 5.6587 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 3/20
+2/2 [==============================] - 2s 1s/step - loss: 10.9002 - accuracy: 0.1833 - val_loss: 5.6537 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 4/20
+2/2 [==============================] - 2s 1s/step - loss: 12.0908 - accuracy: 0.1500 - val_loss: 5.6499 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 5/20
+2/2 [==============================] - 2s 809ms/step - loss: 10.3911 - accuracy: 0.1833 - val_loss: 5.6474 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 6/20
+2/2 [==============================] - 2s 860ms/step - loss: 11.0045 - accuracy: 0.2000 - val_loss: 5.6435 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 7/20
+2/2 [==============================] - 2s 1s/step - loss: 11.5474 - accuracy: 0.2000 - val_loss: 5.6429 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 8/20
+2/2 [==============================] - 2s 875ms/step - loss: 10.8067 - accuracy: 0.2333 - val_loss: 5.6418 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 9/20
+2/2 [==============================] - 2s 824ms/step - loss: 10.4866 - accuracy: 0.2500 - val_loss: 5.6419 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 10/20
+2/2 [==============================] - 2s 825ms/step - loss: 10.9086 - accuracy: 0.1167 - val_loss: 5.6434 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Evaluating the model...
+1/1 [==============================] - 0s 167ms/step - loss: 5.6626 - accuracy: 0.0000e+00
+Test accuracy: 0.0, Validation loss: 5.64178991317749
+Saving results to CSV...
+All experiments completed.
+
+Process finished with exit code 0

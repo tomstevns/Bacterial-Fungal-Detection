@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# venv
+venv/
+.venv/
+
+# PyCharm/IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

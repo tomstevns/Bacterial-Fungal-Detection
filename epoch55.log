@@ -1,0 +1,1677 @@
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\Scripts\python.exe C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\3_model_training_and_evaluation_FNN_6_55pr.py
+Class 'Aero' meets the sample requirement.
+Class 'Bacillus' meets the sample requirement.
+Class 'Bor' meets the sample requirement.
+Class 'E' meets the sample requirement.
+Class 'Morganella' meets the sample requirement.
+Class 'stapholococcus' meets the sample requirement.
+Data check passed for directory: 'C:/Users/tom.zbc/PycharmProjects/fungis_bacterias_project/data/train'
+Class 'Aero' meets the sample requirement.
+Warning: Class 'Bacillus' has only 0 samples, expected at least 2.
+Warning: Class 'Bor' has only 1 samples, expected at least 2.
+Warning: Class 'E' has only 0 samples, expected at least 2.
+Warning: Class 'Morganella' has only 1 samples, expected at least 2.
+Warning: Class 'stapholococcus' has only 1 samples, expected at least 2.
+Data check passed for directory: 'C:/Users/tom.zbc/PycharmProjects/fungis_bacterias_project/data/validation'
+Class 'Aero' meets the sample requirement.
+Warning: Class 'Bacillus' has only 1 samples, expected at least 2.
+Warning: Class 'Bor' has only 0 samples, expected at least 2.
+Warning: Class 'E' has only 0 samples, expected at least 2.
+Warning: Class 'Morganella' has only 1 samples, expected at least 2.
+Class 'stapholococcus' meets the sample requirement.
+Data check passed for directory: 'C:/Users/tom.zbc/PycharmProjects/fungis_bacterias_project/data/test'
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+2024-10-01 07:39:00.446176: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE SSE2 SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.9143 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 268ms/step - loss: 5.9143 - accuracy: 0.1667 - val_loss: 2.6115 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 245ms/step - loss: 5.4344 - accuracy: 0.2167 - val_loss: 2.6010 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 239ms/step - loss: 5.5262 - accuracy: 0.2333 - val_loss: 2.5929 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 223ms/step - loss: 5.1293 - accuracy: 0.1667 - val_loss: 2.5919 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 224ms/step - loss: 5.5309 - accuracy: 0.1667 - val_loss: 2.5929 - val_accuracy: 0.4000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 221ms/step - loss: 5.8463 - accuracy: 0.1833 - val_loss: 2.5996 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 208ms/step - loss: 4.8448 - accuracy: 0.1833 - val_loss: 2.6021 - val_accuracy: 0.2000 - lr: 2.6630e-05
+Overfitting detected at Epoch 7. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 6.5166 - accuracy: 0.0500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 264ms/step - loss: 6.5166 - accuracy: 0.0500 - val_loss: 2.5879 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 242ms/step - loss: 5.3249 - accuracy: 0.2167 - val_loss: 2.5662 - val_accuracy: 0.4000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 212ms/step - loss: 6.0114 - accuracy: 0.2167 - val_loss: 2.5243 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 196ms/step - loss: 5.0780 - accuracy: 0.2000 - val_loss: 2.5397 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 204ms/step - loss: 4.6867 - accuracy: 0.1500 - val_loss: 2.5483 - val_accuracy: 0.0000e+00 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 232ms/step - loss: 5.5157 - accuracy: 0.2667 - val_loss: 2.5651 - val_accuracy: 0.0000e+00 - lr: 3.1881e-05
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 6.2410 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 277ms/step - loss: 6.2410 - accuracy: 0.1667 - val_loss: 2.6099 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 207ms/step - loss: 5.8327 - accuracy: 0.2000 - val_loss: 2.6169 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 206ms/step - loss: 4.8844 - accuracy: 0.3167 - val_loss: 2.6284 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 225ms/step - loss: 6.1941 - accuracy: 0.1500 - val_loss: 2.5982 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 243ms/step - loss: 5.5558 - accuracy: 0.1500 - val_loss: 2.5562 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 213ms/step - loss: 4.8921 - accuracy: 0.1833 - val_loss: 2.5111 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 210ms/step - loss: 4.5073 - accuracy: 0.2333 - val_loss: 2.4822 - val_accuracy: 0.2000 - lr: 5.3259e-05
+Epoch 8/20
+4/4 [==============================] - 1s 217ms/step - loss: 5.2800 - accuracy: 0.2333 - val_loss: 2.4593 - val_accuracy: 0.6000 - lr: 4.3171e-05
+Epoch 9/20
+4/4 [==============================] - 1s 207ms/step - loss: 4.9270 - accuracy: 0.1667 - val_loss: 2.4322 - val_accuracy: 0.6000 - lr: 3.3960e-05
+Epoch 10/20
+4/4 [==============================] - 1s 213ms/step - loss: 4.7866 - accuracy: 0.1833 - val_loss: 2.4069 - val_accuracy: 0.4000 - lr: 2.5924e-05
+Epoch 11/20
+4/4 [==============================] - 1s 218ms/step - loss: 4.3886 - accuracy: 0.2000 - val_loss: 2.3886 - val_accuracy: 0.4000 - lr: 1.9205e-05
+Epoch 12/20
+4/4 [==============================] - 1s 214ms/step - loss: 4.9147 - accuracy: 0.1833 - val_loss: 2.3718 - val_accuracy: 0.4000 - lr: 1.3807e-05
+Epoch 13/20
+4/4 [==============================] - 1s 230ms/step - loss: 4.0926 - accuracy: 0.2000 - val_loss: 2.3574 - val_accuracy: 0.6000 - lr: 9.6328e-06
+Epoch 14/20
+4/4 [==============================] - 1s 218ms/step - loss: 4.3256 - accuracy: 0.2167 - val_loss: 2.3438 - val_accuracy: 0.6000 - lr: 6.5219e-06
+Epoch 15/20
+4/4 [==============================] - 1s 228ms/step - loss: 3.9522 - accuracy: 0.2167 - val_loss: 2.3305 - val_accuracy: 0.6000 - lr: 4.2852e-06
+Epoch 16/20
+4/4 [==============================] - 1s 201ms/step - loss: 4.8672 - accuracy: 0.2167 - val_loss: 2.3179 - val_accuracy: 0.6000 - lr: 2.7324e-06
+Epoch 17/20
+4/4 [==============================] - 1s 215ms/step - loss: 5.1666 - accuracy: 0.1833 - val_loss: 2.3084 - val_accuracy: 0.8000 - lr: 1.6907e-06
+Epoch 18/20
+4/4 [==============================] - 1s 216ms/step - loss: 4.1792 - accuracy: 0.2667 - val_loss: 2.2998 - val_accuracy: 0.8000 - lr: 1.0153e-06
+Epoch 19/20
+4/4 [==============================] - 1s 215ms/step - loss: 4.3530 - accuracy: 0.1500 - val_loss: 2.2927 - val_accuracy: 0.8000 - lr: 5.9166e-07
+Epoch 20/20
+4/4 [==============================] - 1s 221ms/step - loss: 4.4527 - accuracy: 0.2000 - val_loss: 2.2858 - val_accuracy: 0.6000 - lr: 3.3460e-07
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.7389 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 261ms/step - loss: 5.7389 - accuracy: 0.1333 - val_loss: 2.5557 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 213ms/step - loss: 5.2421 - accuracy: 0.1667 - val_loss: 2.5454 - val_accuracy: 0.4000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 220ms/step - loss: 6.0201 - accuracy: 0.1833 - val_loss: 2.5486 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 193ms/step - loss: 6.0342 - accuracy: 0.1833 - val_loss: 2.5507 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 195ms/step - loss: 5.0490 - accuracy: 0.2167 - val_loss: 2.5530 - val_accuracy: 0.2000 - lr: 3.7041e-05
+Overfitting detected at Epoch 5. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.2342 - accuracy: 0.2167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 264ms/step - loss: 5.2342 - accuracy: 0.2167 - val_loss: 2.6582 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 223ms/step - loss: 5.4798 - accuracy: 0.1667 - val_loss: 2.6593 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 220ms/step - loss: 6.1343 - accuracy: 0.1833 - val_loss: 2.6383 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 210ms/step - loss: 7.4323 - accuracy: 0.1667 - val_loss: 2.6112 - val_accuracy: 0.4000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 234ms/step - loss: 5.2299 - accuracy: 0.2167 - val_loss: 2.5745 - val_accuracy: 0.4000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 216ms/step - loss: 5.8023 - accuracy: 0.1833 - val_loss: 2.5678 - val_accuracy: 0.6000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 237ms/step - loss: 5.1231 - accuracy: 0.2000 - val_loss: 2.5430 - val_accuracy: 0.6000 - lr: 5.3259e-05
+Epoch 8/20
+4/4 [==============================] - 1s 247ms/step - loss: 5.0747 - accuracy: 0.2000 - val_loss: 2.5196 - val_accuracy: 0.4000 - lr: 4.3171e-05
+Epoch 9/20
+4/4 [==============================] - 1s 227ms/step - loss: 4.9886 - accuracy: 0.1833 - val_loss: 2.5117 - val_accuracy: 0.4000 - lr: 3.3960e-05
+Epoch 10/20
+4/4 [==============================] - 1s 217ms/step - loss: 4.3139 - accuracy: 0.2333 - val_loss: 2.5118 - val_accuracy: 0.4000 - lr: 2.5924e-05
+Epoch 11/20
+4/4 [==============================] - 1s 205ms/step - loss: 5.6504 - accuracy: 0.2000 - val_loss: 2.5145 - val_accuracy: 0.4000 - lr: 1.9205e-05
+Epoch 12/20
+4/4 [==============================] - 1s 209ms/step - loss: 4.6291 - accuracy: 0.1500 - val_loss: 2.5134 - val_accuracy: 0.4000 - lr: 6.9035e-06
+Overfitting detected at Epoch 10. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.9806 - accuracy: 0.1500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 261ms/step - loss: 5.9806 - accuracy: 0.1500 - val_loss: 2.5048 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 225ms/step - loss: 7.2675 - accuracy: 0.1000 - val_loss: 2.5696 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 198ms/step - loss: 6.1876 - accuracy: 0.1833 - val_loss: 2.6010 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 208ms/step - loss: 5.3928 - accuracy: 0.3000 - val_loss: 2.6338 - val_accuracy: 0.2000 - lr: 4.1764e-05
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.6688 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 270ms/step - loss: 5.6688 - accuracy: 0.1833 - val_loss: 2.6390 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 221ms/step - loss: 5.7770 - accuracy: 0.1333 - val_loss: 2.6824 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 211ms/step - loss: 5.4472 - accuracy: 0.2500 - val_loss: 2.6641 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 229ms/step - loss: 5.7042 - accuracy: 0.1833 - val_loss: 2.6184 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 218ms/step - loss: 5.1708 - accuracy: 0.2500 - val_loss: 2.5874 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 242ms/step - loss: 5.3905 - accuracy: 0.2000 - val_loss: 2.5566 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 226ms/step - loss: 5.0186 - accuracy: 0.2667 - val_loss: 2.5470 - val_accuracy: 0.4000 - lr: 5.3259e-05
+Epoch 8/20
+4/4 [==============================] - 1s 225ms/step - loss: 5.3675 - accuracy: 0.1667 - val_loss: 2.5426 - val_accuracy: 0.4000 - lr: 4.3171e-05
+Epoch 9/20
+4/4 [==============================] - 1s 251ms/step - loss: 4.2839 - accuracy: 0.1667 - val_loss: 2.5358 - val_accuracy: 0.4000 - lr: 3.3960e-05
+Epoch 10/20
+4/4 [==============================] - 1s 211ms/step - loss: 4.2480 - accuracy: 0.2500 - val_loss: 2.5359 - val_accuracy: 0.4000 - lr: 2.5924e-05
+Epoch 11/20
+4/4 [==============================] - 1s 228ms/step - loss: 4.4534 - accuracy: 0.2000 - val_loss: 2.5357 - val_accuracy: 0.4000 - lr: 1.9205e-05
+Epoch 12/20
+4/4 [==============================] - 1s 228ms/step - loss: 4.6107 - accuracy: 0.2500 - val_loss: 2.5330 - val_accuracy: 0.4000 - lr: 1.3807e-05
+Epoch 13/20
+4/4 [==============================] - 1s 208ms/step - loss: 4.2911 - accuracy: 0.2333 - val_loss: 2.5351 - val_accuracy: 0.4000 - lr: 9.6328e-06
+Epoch 14/20
+4/4 [==============================] - 1s 204ms/step - loss: 4.0646 - accuracy: 0.2333 - val_loss: 2.5383 - val_accuracy: 0.4000 - lr: 6.5219e-06
+Epoch 15/20
+4/4 [==============================] - 1s 203ms/step - loss: 4.0398 - accuracy: 0.2333 - val_loss: 2.5416 - val_accuracy: 0.4000 - lr: 2.1426e-06
+Overfitting detected at Epoch 10. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.5568 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 268ms/step - loss: 5.5568 - accuracy: 0.1667 - val_loss: 2.6628 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 221ms/step - loss: 5.7996 - accuracy: 0.2000 - val_loss: 2.6503 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 209ms/step - loss: 5.6463 - accuracy: 0.2500 - val_loss: 2.6531 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 198ms/step - loss: 4.4425 - accuracy: 0.3167 - val_loss: 2.6724 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 213ms/step - loss: 5.1931 - accuracy: 0.2000 - val_loss: 2.7004 - val_accuracy: 0.2000 - lr: 3.7041e-05
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.8726 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 334ms/step - loss: 5.8726 - accuracy: 0.1833 - val_loss: 2.7988 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 268ms/step - loss: 7.1737 - accuracy: 0.1667 - val_loss: 2.8034 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 306ms/step - loss: 8.3394 - accuracy: 0.1833 - val_loss: 2.7607 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 328ms/step - loss: 5.1008 - accuracy: 0.2667 - val_loss: 2.7493 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 265ms/step - loss: 5.8230 - accuracy: 0.2000 - val_loss: 2.7681 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 275ms/step - loss: 5.0361 - accuracy: 0.2333 - val_loss: 2.7865 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 260ms/step - loss: 4.6446 - accuracy: 0.2500 - val_loss: 2.7961 - val_accuracy: 0.2000 - lr: 2.6630e-05
+Overfitting detected at Epoch 6. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.3202 - accuracy: 0.2167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 341ms/step - loss: 7.3202 - accuracy: 0.2167 - val_loss: 2.7918 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 301ms/step - loss: 8.7547 - accuracy: 0.1833 - val_loss: 2.7172 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 264ms/step - loss: 7.0087 - accuracy: 0.1500 - val_loss: 2.7319 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 264ms/step - loss: 7.0023 - accuracy: 0.2667 - val_loss: 2.7560 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 300ms/step - loss: 6.8019 - accuracy: 0.2000 - val_loss: 2.7573 - val_accuracy: 0.2000 - lr: 3.7041e-05
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.9205 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 332ms/step - loss: 5.9205 - accuracy: 0.1333 - val_loss: 2.8028 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 292ms/step - loss: 6.4573 - accuracy: 0.1333 - val_loss: 2.7939 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 275ms/step - loss: 6.6890 - accuracy: 0.1833 - val_loss: 2.8026 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 310ms/step - loss: 6.4319 - accuracy: 0.2333 - val_loss: 2.8164 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 274ms/step - loss: 6.2309 - accuracy: 0.2000 - val_loss: 2.8520 - val_accuracy: 0.0000e+00 - lr: 3.7041e-05
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 6.2887 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 339ms/step - loss: 6.2887 - accuracy: 0.2000 - val_loss: 2.6638 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 276ms/step - loss: 6.9777 - accuracy: 0.1667 - val_loss: 2.6855 - val_accuracy: 0.6000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 271ms/step - loss: 6.4508 - accuracy: 0.2333 - val_loss: 2.7287 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 273ms/step - loss: 6.1382 - accuracy: 0.1500 - val_loss: 2.7329 - val_accuracy: 0.4000 - lr: 4.1764e-05
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 6.1910 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 376ms/step - loss: 6.1910 - accuracy: 0.1833 - val_loss: 2.8297 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 287ms/step - loss: 8.4032 - accuracy: 0.1000 - val_loss: 2.7917 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 336ms/step - loss: 6.9240 - accuracy: 0.2167 - val_loss: 2.7842 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 291ms/step - loss: 6.7797 - accuracy: 0.2833 - val_loss: 2.7478 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 326ms/step - loss: 6.7918 - accuracy: 0.1333 - val_loss: 2.6892 - val_accuracy: 0.4000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 293ms/step - loss: 6.5194 - accuracy: 0.2333 - val_loss: 2.6635 - val_accuracy: 0.4000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 281ms/step - loss: 5.8557 - accuracy: 0.2500 - val_loss: 2.6600 - val_accuracy: 0.4000 - lr: 5.3259e-05
+Epoch 8/20
+4/4 [==============================] - 1s 290ms/step - loss: 6.0255 - accuracy: 0.2167 - val_loss: 2.6753 - val_accuracy: 0.2000 - lr: 4.3171e-05
+Epoch 9/20
+4/4 [==============================] - 1s 269ms/step - loss: 6.3020 - accuracy: 0.1833 - val_loss: 2.6959 - val_accuracy: 0.2000 - lr: 3.3960e-05
+Epoch 10/20
+4/4 [==============================] - 1s 271ms/step - loss: 5.8826 - accuracy: 0.2000 - val_loss: 2.7065 - val_accuracy: 0.0000e+00 - lr: 1.2962e-05
+Overfitting detected at Epoch 10. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.7269 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 338ms/step - loss: 5.7269 - accuracy: 0.2000 - val_loss: 2.7054 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 332ms/step - loss: 6.9011 - accuracy: 0.1500 - val_loss: 2.6953 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 297ms/step - loss: 6.0904 - accuracy: 0.2333 - val_loss: 2.6907 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 306ms/step - loss: 6.2992 - accuracy: 0.2333 - val_loss: 2.6929 - val_accuracy: 0.4000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 264ms/step - loss: 6.8557 - accuracy: 0.1667 - val_loss: 2.7074 - val_accuracy: 0.4000 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 276ms/step - loss: 5.6507 - accuracy: 0.2667 - val_loss: 2.7125 - val_accuracy: 0.4000 - lr: 3.1881e-05
+Overfitting detected at Epoch 6. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.9172 - accuracy: 0.0833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 345ms/step - loss: 7.9172 - accuracy: 0.0833 - val_loss: 2.8138 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 263ms/step - loss: 7.4668 - accuracy: 0.1167 - val_loss: 2.8369 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 263ms/step - loss: 7.1344 - accuracy: 0.1667 - val_loss: 2.8340 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 261ms/step - loss: 8.1482 - accuracy: 0.1500 - val_loss: 2.8582 - val_accuracy: 0.2000 - lr: 4.1764e-05
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.0614 - accuracy: 0.1000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 360ms/step - loss: 7.0614 - accuracy: 0.1000 - val_loss: 2.7742 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 305ms/step - loss: 5.7006 - accuracy: 0.2333 - val_loss: 2.7189 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 328ms/step - loss: 5.7372 - accuracy: 0.2667 - val_loss: 2.7080 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 271ms/step - loss: 8.2947 - accuracy: 0.2333 - val_loss: 2.7436 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 271ms/step - loss: 6.9216 - accuracy: 0.2167 - val_loss: 2.7689 - val_accuracy: 0.0000e+00 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 268ms/step - loss: 7.0061 - accuracy: 0.2000 - val_loss: 2.7201 - val_accuracy: 0.0000e+00 - lr: 3.1881e-05
+Overfitting detected at Epoch 5. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.9808 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 272ms/step - loss: 7.9808 - accuracy: 0.1333 - val_loss: 2.6605 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 217ms/step - loss: 8.2653 - accuracy: 0.2000 - val_loss: 2.6544 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 209ms/step - loss: 6.4681 - accuracy: 0.3167 - val_loss: 2.6594 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 223ms/step - loss: 7.9754 - accuracy: 0.1167 - val_loss: 2.6710 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 209ms/step - loss: 7.8448 - accuracy: 0.1667 - val_loss: 2.6720 - val_accuracy: 0.0000e+00 - lr: 3.7041e-05
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 6.9327 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 313ms/step - loss: 6.9327 - accuracy: 0.2000 - val_loss: 2.5715 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 239ms/step - loss: 9.4206 - accuracy: 0.1833 - val_loss: 2.5754 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 225ms/step - loss: 8.3240 - accuracy: 0.1500 - val_loss: 2.5662 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 224ms/step - loss: 9.1598 - accuracy: 0.1833 - val_loss: 2.5656 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 209ms/step - loss: 8.9397 - accuracy: 0.1667 - val_loss: 2.5658 - val_accuracy: 0.0000e+00 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 209ms/step - loss: 7.1632 - accuracy: 0.2000 - val_loss: 2.5695 - val_accuracy: 0.0000e+00 - lr: 6.3763e-05
+Epoch 7/25
+4/4 [==============================] - 1s 252ms/step - loss: 7.5933 - accuracy: 0.1167 - val_loss: 2.5724 - val_accuracy: 0.0000e+00 - lr: 2.6630e-05
+Overfitting detected at Epoch 5. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 8.7860 - accuracy: 0.2333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 279ms/step - loss: 8.7860 - accuracy: 0.2333 - val_loss: 2.6773 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 220ms/step - loss: 7.6600 - accuracy: 0.2000 - val_loss: 2.6661 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 221ms/step - loss: 8.1451 - accuracy: 0.1167 - val_loss: 2.6205 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 252ms/step - loss: 9.6206 - accuracy: 0.1333 - val_loss: 2.5839 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 227ms/step - loss: 8.6111 - accuracy: 0.1500 - val_loss: 2.5938 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 245ms/step - loss: 6.6379 - accuracy: 0.2833 - val_loss: 2.6150 - val_accuracy: 0.0000e+00 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 214ms/step - loss: 9.2047 - accuracy: 0.1833 - val_loss: 2.6249 - val_accuracy: 0.0000e+00 - lr: 2.6630e-05
+Overfitting detected at Epoch 5. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.1483 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 310ms/step - loss: 7.1483 - accuracy: 0.1333 - val_loss: 2.6134 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 217ms/step - loss: 8.0812 - accuracy: 0.1667 - val_loss: 2.5904 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 223ms/step - loss: 8.5588 - accuracy: 0.2000 - val_loss: 2.5828 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 231ms/step - loss: 7.0232 - accuracy: 0.2000 - val_loss: 2.5841 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 213ms/step - loss: 8.3833 - accuracy: 0.1833 - val_loss: 2.5867 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 213ms/step - loss: 8.1006 - accuracy: 0.1833 - val_loss: 2.5901 - val_accuracy: 0.0000e+00 - lr: 3.1881e-05
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.7697 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 270ms/step - loss: 7.7697 - accuracy: 0.1833 - val_loss: 2.6147 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 219ms/step - loss: 8.8431 - accuracy: 0.1333 - val_loss: 2.6107 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 212ms/step - loss: 6.6800 - accuracy: 0.2333 - val_loss: 2.5890 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 228ms/step - loss: 7.4356 - accuracy: 0.1500 - val_loss: 2.5566 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 215ms/step - loss: 7.0147 - accuracy: 0.2333 - val_loss: 2.5430 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 225ms/step - loss: 8.3884 - accuracy: 0.1000 - val_loss: 2.5364 - val_accuracy: 0.4000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 212ms/step - loss: 8.1271 - accuracy: 0.1500 - val_loss: 2.5216 - val_accuracy: 0.4000 - lr: 5.3259e-05
+Epoch 8/20
+4/4 [==============================] - 1s 243ms/step - loss: 7.7780 - accuracy: 0.1833 - val_loss: 2.5076 - val_accuracy: 0.4000 - lr: 4.3171e-05
+Epoch 9/20
+4/4 [==============================] - 1s 261ms/step - loss: 6.7707 - accuracy: 0.2000 - val_loss: 2.5011 - val_accuracy: 0.2000 - lr: 3.3960e-05
+Epoch 10/20
+4/4 [==============================] - 1s 236ms/step - loss: 7.1301 - accuracy: 0.1167 - val_loss: 2.4956 - val_accuracy: 0.2000 - lr: 2.5924e-05
+Epoch 11/20
+4/4 [==============================] - 1s 240ms/step - loss: 6.7549 - accuracy: 0.1500 - val_loss: 2.4888 - val_accuracy: 0.4000 - lr: 1.9205e-05
+Epoch 12/20
+4/4 [==============================] - 1s 217ms/step - loss: 6.2862 - accuracy: 0.2167 - val_loss: 2.4830 - val_accuracy: 0.4000 - lr: 1.3807e-05
+Epoch 13/20
+4/4 [==============================] - 1s 233ms/step - loss: 7.5729 - accuracy: 0.2000 - val_loss: 2.4772 - val_accuracy: 0.4000 - lr: 9.6328e-06
+Epoch 14/20
+4/4 [==============================] - 1s 222ms/step - loss: 6.5238 - accuracy: 0.1167 - val_loss: 2.4727 - val_accuracy: 0.4000 - lr: 6.5219e-06
+Epoch 15/20
+4/4 [==============================] - 1s 212ms/step - loss: 6.5121 - accuracy: 0.2167 - val_loss: 2.4692 - val_accuracy: 0.4000 - lr: 4.2852e-06
+Epoch 16/20
+4/4 [==============================] - 1s 223ms/step - loss: 6.8503 - accuracy: 0.2000 - val_loss: 2.4666 - val_accuracy: 0.4000 - lr: 2.7324e-06
+Epoch 17/20
+4/4 [==============================] - 1s 235ms/step - loss: 6.8096 - accuracy: 0.1667 - val_loss: 2.4622 - val_accuracy: 0.4000 - lr: 1.6907e-06
+Epoch 18/20
+4/4 [==============================] - 1s 229ms/step - loss: 7.3002 - accuracy: 0.1500 - val_loss: 2.4582 - val_accuracy: 0.6000 - lr: 1.0153e-06
+Epoch 19/20
+4/4 [==============================] - 1s 222ms/step - loss: 6.9838 - accuracy: 0.2167 - val_loss: 2.4534 - val_accuracy: 0.6000 - lr: 5.9166e-07
+Epoch 20/20
+4/4 [==============================] - 1s 225ms/step - loss: 6.3217 - accuracy: 0.1333 - val_loss: 2.4485 - val_accuracy: 0.6000 - lr: 3.3460e-07
+1/1 [==============================] - 0s 85ms/step - loss: 2.5624 - accuracy: 0.4286
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 8.0317 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 271ms/step - loss: 8.0317 - accuracy: 0.1667 - val_loss: 2.6867 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 216ms/step - loss: 7.2866 - accuracy: 0.1000 - val_loss: 2.6886 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 211ms/step - loss: 7.2376 - accuracy: 0.2000 - val_loss: 2.7040 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 223ms/step - loss: 7.2736 - accuracy: 0.2500 - val_loss: 2.6989 - val_accuracy: 0.0000e+00 - lr: 4.1764e-05
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 9.3260 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 290ms/step - loss: 9.3260 - accuracy: 0.2000 - val_loss: 2.6085 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 242ms/step - loss: 7.6286 - accuracy: 0.1500 - val_loss: 2.6049 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 214ms/step - loss: 7.2348 - accuracy: 0.1333 - val_loss: 2.5793 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 215ms/step - loss: 8.3272 - accuracy: 0.1333 - val_loss: 2.5637 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 205ms/step - loss: 8.7221 - accuracy: 0.1833 - val_loss: 2.5643 - val_accuracy: 0.4000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 209ms/step - loss: 7.5020 - accuracy: 0.1833 - val_loss: 2.5705 - val_accuracy: 0.4000 - lr: 6.3763e-05
+Epoch 7/20
+4/4 [==============================] - 1s 197ms/step - loss: 6.8426 - accuracy: 0.2167 - val_loss: 2.5821 - val_accuracy: 0.2000 - lr: 2.6630e-05
+Overfitting detected at Epoch 6. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.7263 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 268ms/step - loss: 7.7263 - accuracy: 0.1333 - val_loss: 2.6172 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 211ms/step - loss: 7.7051 - accuracy: 0.2000 - val_loss: 2.6096 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 221ms/step - loss: 7.0687 - accuracy: 0.2667 - val_loss: 2.6026 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 279ms/step - loss: 7.6508 - accuracy: 0.1667 - val_loss: 2.5996 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 227ms/step - loss: 7.5374 - accuracy: 0.1500 - val_loss: 2.5813 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 229ms/step - loss: 6.0650 - accuracy: 0.2500 - val_loss: 2.5572 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/25
+4/4 [==============================] - 1s 245ms/step - loss: 8.5467 - accuracy: 0.2000 - val_loss: 2.5240 - val_accuracy: 0.2000 - lr: 5.3259e-05
+Epoch 8/25
+4/4 [==============================] - 1s 219ms/step - loss: 6.9933 - accuracy: 0.3000 - val_loss: 2.5022 - val_accuracy: 0.0000e+00 - lr: 4.3171e-05
+Epoch 9/25
+4/4 [==============================] - 1s 226ms/step - loss: 7.5912 - accuracy: 0.2000 - val_loss: 2.4888 - val_accuracy: 0.2000 - lr: 3.3960e-05
+Epoch 10/25
+4/4 [==============================] - 1s 255ms/step - loss: 7.5993 - accuracy: 0.2000 - val_loss: 2.4808 - val_accuracy: 0.2000 - lr: 2.5924e-05
+Epoch 11/25
+4/4 [==============================] - 1s 221ms/step - loss: 6.5521 - accuracy: 0.1833 - val_loss: 2.4784 - val_accuracy: 0.2000 - lr: 1.9205e-05
+Epoch 12/25
+4/4 [==============================] - 1s 246ms/step - loss: 7.0598 - accuracy: 0.2167 - val_loss: 2.4779 - val_accuracy: 0.2000 - lr: 1.3807e-05
+Epoch 13/25
+4/4 [==============================] - 1s 238ms/step - loss: 6.3805 - accuracy: 0.2000 - val_loss: 2.4818 - val_accuracy: 0.2000 - lr: 9.6328e-06
+Epoch 14/25
+4/4 [==============================] - 1s 238ms/step - loss: 7.5967 - accuracy: 0.2333 - val_loss: 2.4882 - val_accuracy: 0.2000 - lr: 6.5219e-06
+Epoch 15/25
+4/4 [==============================] - 1s 228ms/step - loss: 6.7886 - accuracy: 0.2667 - val_loss: 2.4963 - val_accuracy: 0.2000 - lr: 2.1426e-06
+Overfitting detected at Epoch 13. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 9.0632 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 352ms/step - loss: 9.0632 - accuracy: 0.1833 - val_loss: 2.7816 - val_accuracy: 0.2000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 300ms/step - loss: 8.3194 - accuracy: 0.1667 - val_loss: 2.7500 - val_accuracy: 0.4000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 268ms/step - loss: 9.6095 - accuracy: 0.1167 - val_loss: 2.7542 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 270ms/step - loss: 7.9093 - accuracy: 0.1667 - val_loss: 2.7576 - val_accuracy: 0.4000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 314ms/step - loss: 7.7609 - accuracy: 0.1833 - val_loss: 2.7634 - val_accuracy: 0.4000 - lr: 3.7041e-05
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.2086 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 340ms/step - loss: 7.2086 - accuracy: 0.2000 - val_loss: 2.7937 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 289ms/step - loss: 9.4089 - accuracy: 0.1667 - val_loss: 2.7874 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 268ms/step - loss: 11.9472 - accuracy: 0.1667 - val_loss: 2.7965 - val_accuracy: 0.2000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 306ms/step - loss: 9.2290 - accuracy: 0.2833 - val_loss: 2.7792 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 299ms/step - loss: 12.0931 - accuracy: 0.1000 - val_loss: 2.7756 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 326ms/step - loss: 9.1984 - accuracy: 0.2167 - val_loss: 2.7649 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/25
+4/4 [==============================] - 1s 293ms/step - loss: 10.4197 - accuracy: 0.1833 - val_loss: 2.7499 - val_accuracy: 0.2000 - lr: 5.3259e-05
+Epoch 8/25
+4/4 [==============================] - 1s 291ms/step - loss: 9.0754 - accuracy: 0.1333 - val_loss: 2.7356 - val_accuracy: 0.2000 - lr: 4.3171e-05
+Epoch 9/25
+4/4 [==============================] - 1s 296ms/step - loss: 8.9161 - accuracy: 0.2167 - val_loss: 2.7295 - val_accuracy: 0.2000 - lr: 3.3960e-05
+Epoch 10/25
+4/4 [==============================] - 1s 357ms/step - loss: 7.6023 - accuracy: 0.2500 - val_loss: 2.7211 - val_accuracy: 0.2000 - lr: 2.5924e-05
+Epoch 11/25
+4/4 [==============================] - 1s 310ms/step - loss: 7.3201 - accuracy: 0.2167 - val_loss: 2.7121 - val_accuracy: 0.2000 - lr: 1.9205e-05
+Epoch 12/25
+4/4 [==============================] - 1s 296ms/step - loss: 8.6169 - accuracy: 0.2000 - val_loss: 2.7060 - val_accuracy: 0.2000 - lr: 1.3807e-05
+Epoch 13/25
+4/4 [==============================] - 1s 298ms/step - loss: 7.4179 - accuracy: 0.2167 - val_loss: 2.6992 - val_accuracy: 0.2000 - lr: 9.6328e-06
+Epoch 14/25
+4/4 [==============================] - 1s 296ms/step - loss: 7.7034 - accuracy: 0.1833 - val_loss: 2.6896 - val_accuracy: 0.4000 - lr: 6.5219e-06
+Epoch 15/25
+4/4 [==============================] - 1s 299ms/step - loss: 7.0850 - accuracy: 0.2333 - val_loss: 2.6840 - val_accuracy: 0.4000 - lr: 4.2852e-06
+Epoch 16/25
+4/4 [==============================] - 1s 344ms/step - loss: 6.9001 - accuracy: 0.2500 - val_loss: 2.6799 - val_accuracy: 0.4000 - lr: 2.7324e-06
+Epoch 17/25
+4/4 [==============================] - 1s 305ms/step - loss: 8.0000 - accuracy: 0.1833 - val_loss: 2.6754 - val_accuracy: 0.4000 - lr: 1.6907e-06
+Epoch 18/25
+4/4 [==============================] - 1s 307ms/step - loss: 8.9263 - accuracy: 0.2000 - val_loss: 2.6693 - val_accuracy: 0.4000 - lr: 1.0153e-06
+Epoch 19/25
+4/4 [==============================] - 1s 306ms/step - loss: 9.0719 - accuracy: 0.1333 - val_loss: 2.6641 - val_accuracy: 0.4000 - lr: 5.9166e-07
+Epoch 20/25
+4/4 [==============================] - 1s 310ms/step - loss: 9.1333 - accuracy: 0.2167 - val_loss: 2.6580 - val_accuracy: 0.6000 - lr: 3.3460e-07
+Epoch 21/25
+4/4 [==============================] - 1s 315ms/step - loss: 7.9447 - accuracy: 0.1667 - val_loss: 2.6522 - val_accuracy: 0.6000 - lr: 1.8363e-07
+Epoch 22/25
+4/4 [==============================] - 1s 309ms/step - loss: 9.2421 - accuracy: 0.2333 - val_loss: 2.6477 - val_accuracy: 0.6000 - lr: 9.7800e-08
+Epoch 23/25
+4/4 [==============================] - 1s 301ms/step - loss: 8.0976 - accuracy: 0.1500 - val_loss: 2.6436 - val_accuracy: 0.6000 - lr: 5.0548e-08
+Epoch 24/25
+4/4 [==============================] - 1s 309ms/step - loss: 6.7261 - accuracy: 0.2167 - val_loss: 2.6399 - val_accuracy: 0.6000 - lr: 2.5354e-08
+Epoch 25/25
+4/4 [==============================] - 1s 301ms/step - loss: 8.2018 - accuracy: 0.2833 - val_loss: 2.6348 - val_accuracy: 0.6000 - lr: 1.2341e-08
+1/1 [==============================] - 0s 97ms/step - loss: 2.7159 - accuracy: 0.2857
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.3184 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 350ms/step - loss: 7.3184 - accuracy: 0.1667 - val_loss: 2.7723 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 325ms/step - loss: 8.8058 - accuracy: 0.2000 - val_loss: 2.7236 - val_accuracy: 0.4000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 305ms/step - loss: 9.5783 - accuracy: 0.1333 - val_loss: 2.7181 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 267ms/step - loss: 7.9931 - accuracy: 0.2333 - val_loss: 2.7217 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 278ms/step - loss: 9.9847 - accuracy: 0.1667 - val_loss: 2.7244 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/20
+4/4 [==============================] - 1s 285ms/step - loss: 9.7122 - accuracy: 0.1500 - val_loss: 2.7358 - val_accuracy: 0.2000 - lr: 3.1881e-05
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 8.4920 - accuracy: 0.1167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 343ms/step - loss: 8.4920 - accuracy: 0.1167 - val_loss: 2.7371 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 267ms/step - loss: 10.5632 - accuracy: 0.2167 - val_loss: 2.7772 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 277ms/step - loss: 11.1358 - accuracy: 0.1333 - val_loss: 2.7877 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 284ms/step - loss: 9.1305 - accuracy: 0.1167 - val_loss: 2.7530 - val_accuracy: 0.0000e+00 - lr: 4.1764e-05
+1/1 [==============================] - 0s 99ms/step - loss: 2.7380 - accuracy: 0.1429
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 8.1895 - accuracy: 0.0667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 374ms/step - loss: 8.1895 - accuracy: 0.0667 - val_loss: 2.7772 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 265ms/step - loss: 8.0638 - accuracy: 0.1667 - val_loss: 2.8034 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 263ms/step - loss: 8.8396 - accuracy: 0.1667 - val_loss: 2.7940 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 280ms/step - loss: 9.3145 - accuracy: 0.2000 - val_loss: 2.7796 - val_accuracy: 0.2000 - lr: 4.1764e-05
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 8.4640 - accuracy: 0.2167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 353ms/step - loss: 8.4640 - accuracy: 0.2167 - val_loss: 2.8606 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 291ms/step - loss: 10.2440 - accuracy: 0.2000 - val_loss: 2.8597 - val_accuracy: 0.0000e+00 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 289ms/step - loss: 11.1367 - accuracy: 0.1167 - val_loss: 2.8434 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 304ms/step - loss: 10.5265 - accuracy: 0.2500 - val_loss: 2.8432 - val_accuracy: 0.0000e+00 - lr: 8.3527e-05
+Epoch 5/25
+4/4 [==============================] - 1s 268ms/step - loss: 10.7634 - accuracy: 0.1500 - val_loss: 2.8548 - val_accuracy: 0.2000 - lr: 7.4082e-05
+Epoch 6/25
+4/4 [==============================] - 1s 273ms/step - loss: 7.3789 - accuracy: 0.2833 - val_loss: 2.8816 - val_accuracy: 0.2000 - lr: 6.3763e-05
+Epoch 7/25
+4/4 [==============================] - 1s 263ms/step - loss: 8.4648 - accuracy: 0.2167 - val_loss: 2.8958 - val_accuracy: 0.2000 - lr: 2.6630e-05
+Overfitting detected at Epoch 6. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.9008 - accuracy: 0.2500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 340ms/step - loss: 7.9008 - accuracy: 0.2500 - val_loss: 2.6577 - val_accuracy: 0.4000 - lr: 1.0000e-04
+Epoch 2/20
+4/4 [==============================] - 1s 286ms/step - loss: 7.8672 - accuracy: 0.1000 - val_loss: 2.6310 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/20
+4/4 [==============================] - 1s 263ms/step - loss: 8.9080 - accuracy: 0.2333 - val_loss: 2.6328 - val_accuracy: 0.0000e+00 - lr: 9.1393e-05
+Epoch 4/20
+4/4 [==============================] - 1s 278ms/step - loss: 6.5914 - accuracy: 0.2500 - val_loss: 2.6536 - val_accuracy: 0.2000 - lr: 8.3527e-05
+Epoch 5/20
+4/4 [==============================] - 1s 307ms/step - loss: 8.1126 - accuracy: 0.2667 - val_loss: 2.6860 - val_accuracy: 0.2000 - lr: 3.7041e-05
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1e-05, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.8194 - accuracy: 0.1500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 349ms/step - loss: 7.8194 - accuracy: 0.1500 - val_loss: 2.7339 - val_accuracy: 0.0000e+00 - lr: 1.0000e-04
+Epoch 2/25
+4/4 [==============================] - 1s 258ms/step - loss: 7.9329 - accuracy: 0.2167 - val_loss: 2.7444 - val_accuracy: 0.2000 - lr: 9.7045e-05
+Epoch 3/25
+4/4 [==============================] - 1s 253ms/step - loss: 9.0924 - accuracy: 0.1500 - val_loss: 2.7619 - val_accuracy: 0.4000 - lr: 9.1393e-05
+Epoch 4/25
+4/4 [==============================] - 1s 306ms/step - loss: 10.7889 - accuracy: 0.2000 - val_loss: 2.7447 - val_accuracy: 0.4000 - lr: 4.1764e-05
+1/1 [==============================] - 0s 99ms/step - loss: 2.7732 - accuracy: 0.2857
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 4.8996 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 271ms/step - loss: 4.8996 - accuracy: 0.1667 - val_loss: 2.6614 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 203ms/step - loss: 5.9185 - accuracy: 0.1500 - val_loss: 2.6628 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 215ms/step - loss: 5.1552 - accuracy: 0.1667 - val_loss: 2.6687 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 213ms/step - loss: 5.6245 - accuracy: 0.1333 - val_loss: 2.6726 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.0782 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 265ms/step - loss: 5.0782 - accuracy: 0.1833 - val_loss: 2.6458 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 216ms/step - loss: 5.1194 - accuracy: 0.2667 - val_loss: 2.6457 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 230ms/step - loss: 5.5535 - accuracy: 0.1333 - val_loss: 2.6389 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 216ms/step - loss: 4.6417 - accuracy: 0.1833 - val_loss: 2.6322 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 230ms/step - loss: 4.8834 - accuracy: 0.2833 - val_loss: 2.6276 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 223ms/step - loss: 5.0350 - accuracy: 0.1667 - val_loss: 2.6254 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 218ms/step - loss: 5.1272 - accuracy: 0.1167 - val_loss: 2.6238 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 259ms/step - loss: 5.4220 - accuracy: 0.1833 - val_loss: 2.6226 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 217ms/step - loss: 4.9703 - accuracy: 0.1833 - val_loss: 2.6225 - val_accuracy: 0.0000e+00 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 194ms/step - loss: 4.8442 - accuracy: 0.2833 - val_loss: 2.6233 - val_accuracy: 0.0000e+00 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 216ms/step - loss: 3.9548 - accuracy: 0.2500 - val_loss: 2.6247 - val_accuracy: 0.0000e+00 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 209ms/step - loss: 4.3897 - accuracy: 0.2333 - val_loss: 2.6262 - val_accuracy: 0.0000e+00 - lr: 6.9035e-07
+Overfitting detected at Epoch 10. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.2807 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 271ms/step - loss: 5.2807 - accuracy: 0.1667 - val_loss: 2.5978 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 207ms/step - loss: 5.5051 - accuracy: 0.0833 - val_loss: 2.6022 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 206ms/step - loss: 4.3243 - accuracy: 0.2333 - val_loss: 2.6065 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 235ms/step - loss: 4.3990 - accuracy: 0.3000 - val_loss: 2.6044 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 4.8457 - accuracy: 0.2500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 278ms/step - loss: 4.8457 - accuracy: 0.2500 - val_loss: 2.6677 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 222ms/step - loss: 4.6030 - accuracy: 0.2500 - val_loss: 2.6671 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 218ms/step - loss: 5.2257 - accuracy: 0.1500 - val_loss: 2.6669 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 212ms/step - loss: 5.3956 - accuracy: 0.1667 - val_loss: 2.6647 - val_accuracy: 0.0000e+00 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 241ms/step - loss: 4.7949 - accuracy: 0.2000 - val_loss: 2.6636 - val_accuracy: 0.0000e+00 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 222ms/step - loss: 4.7202 - accuracy: 0.1500 - val_loss: 2.6632 - val_accuracy: 0.0000e+00 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 225ms/step - loss: 4.7053 - accuracy: 0.2000 - val_loss: 2.6633 - val_accuracy: 0.0000e+00 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 205ms/step - loss: 5.1700 - accuracy: 0.1500 - val_loss: 2.6644 - val_accuracy: 0.0000e+00 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 207ms/step - loss: 5.4496 - accuracy: 0.1000 - val_loss: 2.6662 - val_accuracy: 0.0000e+00 - lr: 1.6980e-06
+Overfitting detected at Epoch 7. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.4172 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 272ms/step - loss: 5.4172 - accuracy: 0.1833 - val_loss: 2.6529 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 212ms/step - loss: 4.6125 - accuracy: 0.1833 - val_loss: 2.6381 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 218ms/step - loss: 4.5409 - accuracy: 0.1333 - val_loss: 2.6241 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 250ms/step - loss: 4.5160 - accuracy: 0.2000 - val_loss: 2.6161 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 223ms/step - loss: 4.5933 - accuracy: 0.0667 - val_loss: 2.6122 - val_accuracy: 0.4000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 248ms/step - loss: 3.4121 - accuracy: 0.3167 - val_loss: 2.6086 - val_accuracy: 0.4000 - lr: 6.3763e-06
+Epoch 7/20
+4/4 [==============================] - 1s 231ms/step - loss: 3.7617 - accuracy: 0.2667 - val_loss: 2.6074 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/20
+4/4 [==============================] - 1s 201ms/step - loss: 4.7963 - accuracy: 0.1333 - val_loss: 2.6092 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/20
+4/4 [==============================] - 1s 201ms/step - loss: 4.4016 - accuracy: 0.2500 - val_loss: 2.6118 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/20
+4/4 [==============================] - 1s 237ms/step - loss: 4.1493 - accuracy: 0.1833 - val_loss: 2.6171 - val_accuracy: 0.2000 - lr: 1.2962e-06
+Overfitting detected at Epoch 9. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.2201 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 270ms/step - loss: 5.2201 - accuracy: 0.1833 - val_loss: 2.6713 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 214ms/step - loss: 5.5945 - accuracy: 0.1500 - val_loss: 2.6801 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 236ms/step - loss: 5.3008 - accuracy: 0.1000 - val_loss: 2.6804 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 217ms/step - loss: 4.7264 - accuracy: 0.2667 - val_loss: 2.6854 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 4.3989 - accuracy: 0.2333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 289ms/step - loss: 4.3989 - accuracy: 0.2333 - val_loss: 2.6417 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 241ms/step - loss: 5.0813 - accuracy: 0.1833 - val_loss: 2.6445 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 216ms/step - loss: 5.5672 - accuracy: 0.1333 - val_loss: 2.6455 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 212ms/step - loss: 5.1499 - accuracy: 0.1000 - val_loss: 2.6465 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.2890 - accuracy: 0.1167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 266ms/step - loss: 5.2890 - accuracy: 0.1167 - val_loss: 2.6042 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 258ms/step - loss: 5.1774 - accuracy: 0.1667 - val_loss: 2.6036 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 225ms/step - loss: 5.0833 - accuracy: 0.1833 - val_loss: 2.6014 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 224ms/step - loss: 5.1347 - accuracy: 0.2333 - val_loss: 2.6013 - val_accuracy: 0.4000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 205ms/step - loss: 5.7215 - accuracy: 0.1833 - val_loss: 2.6020 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 231ms/step - loss: 3.9589 - accuracy: 0.2333 - val_loss: 2.5992 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 222ms/step - loss: 4.5561 - accuracy: 0.1167 - val_loss: 2.5972 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 249ms/step - loss: 5.0979 - accuracy: 0.0833 - val_loss: 2.5961 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 226ms/step - loss: 5.1425 - accuracy: 0.1333 - val_loss: 2.5953 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 233ms/step - loss: 5.0576 - accuracy: 0.1833 - val_loss: 2.5940 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 224ms/step - loss: 5.2859 - accuracy: 0.2167 - val_loss: 2.5929 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 233ms/step - loss: 3.8883 - accuracy: 0.2000 - val_loss: 2.5927 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/25
+4/4 [==============================] - 1s 225ms/step - loss: 3.8350 - accuracy: 0.2833 - val_loss: 2.5927 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/25
+4/4 [==============================] - 1s 235ms/step - loss: 5.2288 - accuracy: 0.2167 - val_loss: 2.5927 - val_accuracy: 0.2000 - lr: 6.5219e-07
+Epoch 15/25
+4/4 [==============================] - 1s 202ms/step - loss: 4.1259 - accuracy: 0.2500 - val_loss: 2.5930 - val_accuracy: 0.0000e+00 - lr: 2.1426e-07
+Overfitting detected at Epoch 13. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.4177 - accuracy: 0.1500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 337ms/step - loss: 5.4177 - accuracy: 0.1500 - val_loss: 2.7242 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 268ms/step - loss: 5.3588 - accuracy: 0.1000 - val_loss: 2.7265 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 294ms/step - loss: 5.3636 - accuracy: 0.1167 - val_loss: 2.7375 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 264ms/step - loss: 4.7068 - accuracy: 0.1833 - val_loss: 2.7498 - val_accuracy: 0.2000 - lr: 4.1764e-06
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 6.2274 - accuracy: 0.2167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 347ms/step - loss: 6.2274 - accuracy: 0.2167 - val_loss: 2.8676 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 332ms/step - loss: 5.6485 - accuracy: 0.2167 - val_loss: 2.8607 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 300ms/step - loss: 5.4222 - accuracy: 0.1667 - val_loss: 2.8505 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 283ms/step - loss: 6.0042 - accuracy: 0.2000 - val_loss: 2.8487 - val_accuracy: 0.0000e+00 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 274ms/step - loss: 5.0534 - accuracy: 0.2167 - val_loss: 2.8498 - val_accuracy: 0.0000e+00 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 277ms/step - loss: 5.2052 - accuracy: 0.2500 - val_loss: 2.8512 - val_accuracy: 0.0000e+00 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 270ms/step - loss: 6.1645 - accuracy: 0.2000 - val_loss: 2.8553 - val_accuracy: 0.0000e+00 - lr: 2.6630e-06
+Overfitting detected at Epoch 5. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 5.6713 - accuracy: 0.1500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 375ms/step - loss: 5.6713 - accuracy: 0.1500 - val_loss: 2.7513 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 293ms/step - loss: 4.9900 - accuracy: 0.1833 - val_loss: 2.7512 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 305ms/step - loss: 5.6694 - accuracy: 0.1333 - val_loss: 2.7491 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 328ms/step - loss: 4.9955 - accuracy: 0.1333 - val_loss: 2.7461 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 293ms/step - loss: 4.3189 - accuracy: 0.2000 - val_loss: 2.7445 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 293ms/step - loss: 4.6056 - accuracy: 0.2500 - val_loss: 2.7388 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/20
+4/4 [==============================] - 1s 290ms/step - loss: 4.8571 - accuracy: 0.1333 - val_loss: 2.7339 - val_accuracy: 0.0000e+00 - lr: 5.3259e-06
+Epoch 8/20
+4/4 [==============================] - 1s 301ms/step - loss: 4.4824 - accuracy: 0.2333 - val_loss: 2.7303 - val_accuracy: 0.0000e+00 - lr: 4.3171e-06
+Epoch 9/20
+4/4 [==============================] - 1s 294ms/step - loss: 4.7423 - accuracy: 0.2500 - val_loss: 2.7277 - val_accuracy: 0.0000e+00 - lr: 3.3960e-06
+Epoch 10/20
+4/4 [==============================] - 1s 332ms/step - loss: 5.0930 - accuracy: 0.2167 - val_loss: 2.7240 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/20
+4/4 [==============================] - 1s 318ms/step - loss: 4.3068 - accuracy: 0.2500 - val_loss: 2.7189 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/20
+4/4 [==============================] - 1s 299ms/step - loss: 4.3429 - accuracy: 0.1833 - val_loss: 2.7132 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/20
+4/4 [==============================] - 1s 298ms/step - loss: 4.6831 - accuracy: 0.1333 - val_loss: 2.7071 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/20
+4/4 [==============================] - 1s 322ms/step - loss: 4.1234 - accuracy: 0.2333 - val_loss: 2.7030 - val_accuracy: 0.2000 - lr: 6.5219e-07
+Epoch 15/20
+4/4 [==============================] - 1s 294ms/step - loss: 4.3997 - accuracy: 0.2500 - val_loss: 2.7001 - val_accuracy: 0.2000 - lr: 4.2852e-07
+Epoch 16/20
+4/4 [==============================] - 1s 304ms/step - loss: 4.8761 - accuracy: 0.1500 - val_loss: 2.6978 - val_accuracy: 0.2000 - lr: 2.7324e-07
+Epoch 17/20
+4/4 [==============================] - 1s 304ms/step - loss: 4.8030 - accuracy: 0.2667 - val_loss: 2.6953 - val_accuracy: 0.2000 - lr: 1.6907e-07
+Epoch 18/20
+4/4 [==============================] - 1s 320ms/step - loss: 4.7077 - accuracy: 0.1667 - val_loss: 2.6930 - val_accuracy: 0.2000 - lr: 1.0153e-07
+Epoch 19/20
+4/4 [==============================] - 1s 301ms/step - loss: 4.3751 - accuracy: 0.2833 - val_loss: 2.6909 - val_accuracy: 0.2000 - lr: 5.9166e-08
+Epoch 20/20
+4/4 [==============================] - 1s 310ms/step - loss: 4.8193 - accuracy: 0.2333 - val_loss: 2.6888 - val_accuracy: 0.2000 - lr: 3.3460e-08
+1/1 [==============================] - 0s 104ms/step - loss: 2.7672 - accuracy: 0.1429
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.3793 - accuracy: 0.1500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 363ms/step - loss: 5.3793 - accuracy: 0.1500 - val_loss: 2.7484 - val_accuracy: 0.6000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 299ms/step - loss: 5.0209 - accuracy: 0.1833 - val_loss: 2.7427 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 322ms/step - loss: 5.0814 - accuracy: 0.1833 - val_loss: 2.7400 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 299ms/step - loss: 4.5092 - accuracy: 0.1667 - val_loss: 2.7360 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 307ms/step - loss: 4.5183 - accuracy: 0.2000 - val_loss: 2.7310 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 303ms/step - loss: 4.6331 - accuracy: 0.2167 - val_loss: 2.7236 - val_accuracy: 0.4000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 302ms/step - loss: 4.5958 - accuracy: 0.1500 - val_loss: 2.7160 - val_accuracy: 0.4000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 296ms/step - loss: 5.0528 - accuracy: 0.1167 - val_loss: 2.7080 - val_accuracy: 0.4000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 314ms/step - loss: 4.7745 - accuracy: 0.2000 - val_loss: 2.7009 - val_accuracy: 0.4000 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 304ms/step - loss: 5.0062 - accuracy: 0.2000 - val_loss: 2.6940 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 345ms/step - loss: 4.8980 - accuracy: 0.1667 - val_loss: 2.6867 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 301ms/step - loss: 4.7157 - accuracy: 0.1333 - val_loss: 2.6800 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/25
+4/4 [==============================] - 1s 334ms/step - loss: 5.1584 - accuracy: 0.1000 - val_loss: 2.6738 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/25
+4/4 [==============================] - 1s 298ms/step - loss: 4.6224 - accuracy: 0.2833 - val_loss: 2.6676 - val_accuracy: 0.2000 - lr: 6.5219e-07
+Epoch 15/25
+4/4 [==============================] - 1s 298ms/step - loss: 4.9750 - accuracy: 0.1833 - val_loss: 2.6609 - val_accuracy: 0.2000 - lr: 4.2852e-07
+Epoch 16/25
+4/4 [==============================] - 1s 300ms/step - loss: 5.1885 - accuracy: 0.2167 - val_loss: 2.6545 - val_accuracy: 0.2000 - lr: 2.7324e-07
+Epoch 17/25
+4/4 [==============================] - 1s 360ms/step - loss: 4.4952 - accuracy: 0.2333 - val_loss: 2.6481 - val_accuracy: 0.2000 - lr: 1.6907e-07
+Epoch 18/25
+4/4 [==============================] - 1s 307ms/step - loss: 4.0617 - accuracy: 0.2333 - val_loss: 2.6419 - val_accuracy: 0.2000 - lr: 1.0153e-07
+Epoch 19/25
+4/4 [==============================] - 1s 286ms/step - loss: 4.9819 - accuracy: 0.1167 - val_loss: 2.6357 - val_accuracy: 0.2000 - lr: 5.9166e-08
+Epoch 20/25
+4/4 [==============================] - 1s 286ms/step - loss: 4.2754 - accuracy: 0.2167 - val_loss: 2.6297 - val_accuracy: 0.2000 - lr: 3.3460e-08
+Epoch 21/25
+4/4 [==============================] - 1s 311ms/step - loss: 5.0793 - accuracy: 0.2167 - val_loss: 2.6240 - val_accuracy: 0.2000 - lr: 1.8363e-08
+Epoch 22/25
+4/4 [==============================] - 1s 299ms/step - loss: 4.2487 - accuracy: 0.2333 - val_loss: 2.6181 - val_accuracy: 0.2000 - lr: 9.7800e-09
+Epoch 23/25
+4/4 [==============================] - 1s 304ms/step - loss: 4.2476 - accuracy: 0.2000 - val_loss: 2.6123 - val_accuracy: 0.2000 - lr: 5.0548e-09
+Epoch 24/25
+4/4 [==============================] - 1s 296ms/step - loss: 4.4653 - accuracy: 0.2000 - val_loss: 2.6067 - val_accuracy: 0.2000 - lr: 2.5354e-09
+Epoch 25/25
+4/4 [==============================] - 1s 335ms/step - loss: 4.1004 - accuracy: 0.2333 - val_loss: 2.6011 - val_accuracy: 0.2000 - lr: 1.2341e-09
+1/1 [==============================] - 0s 96ms/step - loss: 2.6490 - accuracy: 0.1429
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 4.7944 - accuracy: 0.1000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 343ms/step - loss: 4.7944 - accuracy: 0.1000 - val_loss: 2.7921 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 279ms/step - loss: 4.4552 - accuracy: 0.1833 - val_loss: 2.7929 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 268ms/step - loss: 4.9632 - accuracy: 0.2000 - val_loss: 2.7963 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 272ms/step - loss: 5.0599 - accuracy: 0.1500 - val_loss: 2.7946 - val_accuracy: 0.2000 - lr: 4.1764e-06
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.7612 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 367ms/step - loss: 5.7612 - accuracy: 0.1333 - val_loss: 2.7685 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 289ms/step - loss: 5.5182 - accuracy: 0.2000 - val_loss: 2.7676 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 300ms/step - loss: 5.3981 - accuracy: 0.2000 - val_loss: 2.7662 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 267ms/step - loss: 4.8254 - accuracy: 0.2000 - val_loss: 2.7702 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 274ms/step - loss: 4.5525 - accuracy: 0.1833 - val_loss: 2.7746 - val_accuracy: 0.0000e+00 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 271ms/step - loss: 5.2159 - accuracy: 0.1833 - val_loss: 2.7749 - val_accuracy: 0.0000e+00 - lr: 3.1881e-06
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 4.5407 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 346ms/step - loss: 4.5407 - accuracy: 0.1667 - val_loss: 2.7774 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 271ms/step - loss: 5.6909 - accuracy: 0.1833 - val_loss: 2.7822 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 272ms/step - loss: 5.6518 - accuracy: 0.1333 - val_loss: 2.7909 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 281ms/step - loss: 4.6545 - accuracy: 0.1833 - val_loss: 2.8021 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.6
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 5.8775 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 344ms/step - loss: 5.8775 - accuracy: 0.1333 - val_loss: 2.8012 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 307ms/step - loss: 5.7055 - accuracy: 0.2500 - val_loss: 2.7907 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 289ms/step - loss: 5.6044 - accuracy: 0.1833 - val_loss: 2.7805 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 300ms/step - loss: 5.2967 - accuracy: 0.1333 - val_loss: 2.7736 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 320ms/step - loss: 4.3041 - accuracy: 0.2667 - val_loss: 2.7689 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 303ms/step - loss: 5.1016 - accuracy: 0.2167 - val_loss: 2.7654 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 296ms/step - loss: 4.8909 - accuracy: 0.3000 - val_loss: 2.7612 - val_accuracy: 0.0000e+00 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 322ms/step - loss: 5.0726 - accuracy: 0.1667 - val_loss: 2.7571 - val_accuracy: 0.0000e+00 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 324ms/step - loss: 4.6660 - accuracy: 0.1667 - val_loss: 2.7533 - val_accuracy: 0.0000e+00 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 296ms/step - loss: 4.4326 - accuracy: 0.2500 - val_loss: 2.7503 - val_accuracy: 0.0000e+00 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 298ms/step - loss: 5.1035 - accuracy: 0.2000 - val_loss: 2.7485 - val_accuracy: 0.0000e+00 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 327ms/step - loss: 4.0967 - accuracy: 0.1833 - val_loss: 2.7466 - val_accuracy: 0.0000e+00 - lr: 1.3807e-06
+Epoch 13/25
+4/4 [==============================] - 1s 331ms/step - loss: 5.4851 - accuracy: 0.1500 - val_loss: 2.7455 - val_accuracy: 0.0000e+00 - lr: 9.6328e-07
+Epoch 14/25
+4/4 [==============================] - 1s 297ms/step - loss: 5.5746 - accuracy: 0.2000 - val_loss: 2.7449 - val_accuracy: 0.0000e+00 - lr: 6.5219e-07
+Epoch 15/25
+4/4 [==============================] - 1s 294ms/step - loss: 5.4065 - accuracy: 0.2000 - val_loss: 2.7445 - val_accuracy: 0.0000e+00 - lr: 4.2852e-07
+Epoch 16/25
+4/4 [==============================] - 1s 308ms/step - loss: 5.1952 - accuracy: 0.1833 - val_loss: 2.7435 - val_accuracy: 0.0000e+00 - lr: 2.7324e-07
+Epoch 17/25
+4/4 [==============================] - 1s 306ms/step - loss: 4.8746 - accuracy: 0.1333 - val_loss: 2.7429 - val_accuracy: 0.0000e+00 - lr: 1.6907e-07
+Epoch 18/25
+4/4 [==============================] - 1s 332ms/step - loss: 5.2257 - accuracy: 0.1500 - val_loss: 2.7425 - val_accuracy: 0.0000e+00 - lr: 1.0153e-07
+Epoch 19/25
+4/4 [==============================] - 1s 326ms/step - loss: 5.0060 - accuracy: 0.2500 - val_loss: 2.7422 - val_accuracy: 0.0000e+00 - lr: 5.9166e-08
+Epoch 20/25
+4/4 [==============================] - 1s 299ms/step - loss: 5.0625 - accuracy: 0.1833 - val_loss: 2.7417 - val_accuracy: 0.0000e+00 - lr: 3.3460e-08
+Epoch 21/25
+4/4 [==============================] - 1s 307ms/step - loss: 4.8252 - accuracy: 0.2167 - val_loss: 2.7416 - val_accuracy: 0.0000e+00 - lr: 1.8363e-08
+Epoch 22/25
+4/4 [==============================] - 1s 311ms/step - loss: 5.4766 - accuracy: 0.1167 - val_loss: 2.7411 - val_accuracy: 0.0000e+00 - lr: 9.7800e-09
+Epoch 23/25
+4/4 [==============================] - 1s 292ms/step - loss: 5.8945 - accuracy: 0.1333 - val_loss: 2.7406 - val_accuracy: 0.0000e+00 - lr: 5.0548e-09
+Epoch 24/25
+4/4 [==============================] - 1s 331ms/step - loss: 4.4912 - accuracy: 0.2000 - val_loss: 2.7404 - val_accuracy: 0.0000e+00 - lr: 2.5354e-09
+Epoch 25/25
+4/4 [==============================] - 1s 299ms/step - loss: 5.1050 - accuracy: 0.1833 - val_loss: 2.7402 - val_accuracy: 0.0000e+00 - lr: 1.2341e-09
+1/1 [==============================] - 0s 97ms/step - loss: 2.8090 - accuracy: 0.0000e+00
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 8.5896 - accuracy: 0.2500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 292ms/step - loss: 8.5896 - accuracy: 0.2500 - val_loss: 2.5901 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 250ms/step - loss: 7.4838 - accuracy: 0.2000 - val_loss: 2.5848 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 234ms/step - loss: 7.5036 - accuracy: 0.1167 - val_loss: 2.5846 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 204ms/step - loss: 7.3370 - accuracy: 0.0833 - val_loss: 2.5892 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 208ms/step - loss: 9.1061 - accuracy: 0.1333 - val_loss: 2.5982 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 214ms/step - loss: 6.9073 - accuracy: 0.1667 - val_loss: 2.6075 - val_accuracy: 0.2000 - lr: 3.1881e-06
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.8296 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 272ms/step - loss: 7.8296 - accuracy: 0.1333 - val_loss: 2.6240 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 248ms/step - loss: 6.6570 - accuracy: 0.1833 - val_loss: 2.6228 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 224ms/step - loss: 7.2058 - accuracy: 0.1833 - val_loss: 2.6251 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 235ms/step - loss: 8.6648 - accuracy: 0.1667 - val_loss: 2.6266 - val_accuracy: 0.0000e+00 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 206ms/step - loss: 5.9904 - accuracy: 0.2500 - val_loss: 2.6281 - val_accuracy: 0.0000e+00 - lr: 3.7041e-06
+Overfitting detected at Epoch 5. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 9.6057 - accuracy: 0.1000 C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 266ms/step - loss: 9.6057 - accuracy: 0.1000 - val_loss: 2.6429 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 237ms/step - loss: 7.7973 - accuracy: 0.1500 - val_loss: 2.6432 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 249ms/step - loss: 8.1942 - accuracy: 0.1333 - val_loss: 2.6426 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 237ms/step - loss: 8.1186 - accuracy: 0.1667 - val_loss: 2.6464 - val_accuracy: 0.0000e+00 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 211ms/step - loss: 8.1177 - accuracy: 0.2167 - val_loss: 2.6497 - val_accuracy: 0.0000e+00 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 219ms/step - loss: 6.4159 - accuracy: 0.1667 - val_loss: 2.6527 - val_accuracy: 0.0000e+00 - lr: 3.1881e-06
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.3591 - accuracy: 0.2167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 271ms/step - loss: 7.3591 - accuracy: 0.2167 - val_loss: 2.5953 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 217ms/step - loss: 8.4330 - accuracy: 0.1500 - val_loss: 2.5892 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 226ms/step - loss: 8.5102 - accuracy: 0.1500 - val_loss: 2.5851 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 226ms/step - loss: 7.3516 - accuracy: 0.1667 - val_loss: 2.5822 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 232ms/step - loss: 7.4606 - accuracy: 0.2333 - val_loss: 2.5808 - val_accuracy: 0.4000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 216ms/step - loss: 7.4961 - accuracy: 0.1500 - val_loss: 2.5817 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 231ms/step - loss: 7.8801 - accuracy: 0.1833 - val_loss: 2.5836 - val_accuracy: 0.0000e+00 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 207ms/step - loss: 6.9369 - accuracy: 0.1667 - val_loss: 2.5893 - val_accuracy: 0.0000e+00 - lr: 2.1586e-06
+Overfitting detected at Epoch 8. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 6.8303 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 276ms/step - loss: 6.8303 - accuracy: 0.2000 - val_loss: 2.5889 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 230ms/step - loss: 6.5110 - accuracy: 0.1500 - val_loss: 2.5945 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 228ms/step - loss: 7.9811 - accuracy: 0.1333 - val_loss: 2.6000 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 206ms/step - loss: 6.7875 - accuracy: 0.1833 - val_loss: 2.6085 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 8.0909 - accuracy: 0.1167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 264ms/step - loss: 8.0909 - accuracy: 0.1167 - val_loss: 2.5924 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 226ms/step - loss: 8.4531 - accuracy: 0.2167 - val_loss: 2.5891 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 223ms/step - loss: 6.6395 - accuracy: 0.2000 - val_loss: 2.5860 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 225ms/step - loss: 7.3666 - accuracy: 0.1667 - val_loss: 2.5822 - val_accuracy: 0.4000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 233ms/step - loss: 7.7460 - accuracy: 0.1833 - val_loss: 2.5773 - val_accuracy: 0.4000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 227ms/step - loss: 8.4043 - accuracy: 0.1167 - val_loss: 2.5733 - val_accuracy: 0.4000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 248ms/step - loss: 7.9050 - accuracy: 0.1333 - val_loss: 2.5706 - val_accuracy: 0.4000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 226ms/step - loss: 7.6514 - accuracy: 0.1667 - val_loss: 2.5683 - val_accuracy: 0.4000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 220ms/step - loss: 7.3881 - accuracy: 0.1833 - val_loss: 2.5651 - val_accuracy: 0.4000 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 253ms/step - loss: 8.2346 - accuracy: 0.1333 - val_loss: 2.5624 - val_accuracy: 0.4000 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 226ms/step - loss: 5.9825 - accuracy: 0.1667 - val_loss: 2.5590 - val_accuracy: 0.4000 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 220ms/step - loss: 7.4509 - accuracy: 0.1167 - val_loss: 2.5553 - val_accuracy: 0.4000 - lr: 1.3807e-06
+Epoch 13/25
+4/4 [==============================] - 1s 216ms/step - loss: 7.1359 - accuracy: 0.1333 - val_loss: 2.5520 - val_accuracy: 0.4000 - lr: 9.6328e-07
+Epoch 14/25
+4/4 [==============================] - 1s 243ms/step - loss: 7.8789 - accuracy: 0.1500 - val_loss: 2.5494 - val_accuracy: 0.4000 - lr: 6.5219e-07
+Epoch 15/25
+4/4 [==============================] - 1s 217ms/step - loss: 8.5937 - accuracy: 0.1000 - val_loss: 2.5470 - val_accuracy: 0.4000 - lr: 4.2852e-07
+Epoch 16/25
+4/4 [==============================] - 1s 218ms/step - loss: 7.5440 - accuracy: 0.1000 - val_loss: 2.5439 - val_accuracy: 0.4000 - lr: 2.7324e-07
+Epoch 17/25
+4/4 [==============================] - 1s 217ms/step - loss: 6.4747 - accuracy: 0.2167 - val_loss: 2.5409 - val_accuracy: 0.4000 - lr: 1.6907e-07
+Epoch 18/25
+4/4 [==============================] - 1s 225ms/step - loss: 7.0745 - accuracy: 0.1833 - val_loss: 2.5379 - val_accuracy: 0.4000 - lr: 1.0153e-07
+Epoch 19/25
+4/4 [==============================] - 1s 254ms/step - loss: 9.0823 - accuracy: 0.1500 - val_loss: 2.5352 - val_accuracy: 0.4000 - lr: 5.9166e-08
+Epoch 20/25
+4/4 [==============================] - 1s 222ms/step - loss: 7.4384 - accuracy: 0.1833 - val_loss: 2.5324 - val_accuracy: 0.4000 - lr: 3.3460e-08
+Epoch 21/25
+4/4 [==============================] - 1s 221ms/step - loss: 9.8169 - accuracy: 0.1500 - val_loss: 2.5297 - val_accuracy: 0.4000 - lr: 1.8363e-08
+Epoch 22/25
+4/4 [==============================] - 1s 219ms/step - loss: 7.8239 - accuracy: 0.1500 - val_loss: 2.5272 - val_accuracy: 0.4000 - lr: 9.7800e-09
+Epoch 23/25
+4/4 [==============================] - 1s 222ms/step - loss: 8.5885 - accuracy: 0.1000 - val_loss: 2.5249 - val_accuracy: 0.4000 - lr: 5.0548e-09
+Epoch 24/25
+4/4 [==============================] - 1s 231ms/step - loss: 7.9513 - accuracy: 0.1667 - val_loss: 2.5227 - val_accuracy: 0.4000 - lr: 2.5354e-09
+Epoch 25/25
+4/4 [==============================] - 1s 219ms/step - loss: 8.0489 - accuracy: 0.1833 - val_loss: 2.5203 - val_accuracy: 0.4000 - lr: 1.2341e-09
+1/1 [==============================] - 0s 87ms/step - loss: 2.6067 - accuracy: 0.1429
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.4421 - accuracy: 0.2167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 273ms/step - loss: 7.4421 - accuracy: 0.2167 - val_loss: 2.6155 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 229ms/step - loss: 7.5875 - accuracy: 0.1500 - val_loss: 2.6092 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 233ms/step - loss: 7.9992 - accuracy: 0.2500 - val_loss: 2.6026 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 220ms/step - loss: 9.6756 - accuracy: 0.1167 - val_loss: 2.5950 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 226ms/step - loss: 7.5886 - accuracy: 0.2167 - val_loss: 2.5895 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 229ms/step - loss: 7.0208 - accuracy: 0.2000 - val_loss: 2.5851 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/20
+4/4 [==============================] - 1s 245ms/step - loss: 7.0965 - accuracy: 0.1667 - val_loss: 2.5836 - val_accuracy: 0.4000 - lr: 5.3259e-06
+Epoch 8/20
+4/4 [==============================] - 1s 242ms/step - loss: 8.3345 - accuracy: 0.1167 - val_loss: 2.5823 - val_accuracy: 0.4000 - lr: 4.3171e-06
+Epoch 9/20
+4/4 [==============================] - 1s 245ms/step - loss: 7.7789 - accuracy: 0.1500 - val_loss: 2.5807 - val_accuracy: 0.4000 - lr: 3.3960e-06
+Epoch 10/20
+4/4 [==============================] - 1s 231ms/step - loss: 7.3557 - accuracy: 0.2000 - val_loss: 2.5794 - val_accuracy: 0.4000 - lr: 2.5924e-06
+Epoch 11/20
+4/4 [==============================] - 1s 225ms/step - loss: 7.7119 - accuracy: 0.0667 - val_loss: 2.5774 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/20
+4/4 [==============================] - 1s 233ms/step - loss: 7.9780 - accuracy: 0.1667 - val_loss: 2.5752 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/20
+4/4 [==============================] - 1s 237ms/step - loss: 6.5995 - accuracy: 0.1833 - val_loss: 2.5726 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/20
+4/4 [==============================] - 1s 226ms/step - loss: 8.4084 - accuracy: 0.1167 - val_loss: 2.5708 - val_accuracy: 0.2000 - lr: 6.5219e-07
+Epoch 15/20
+4/4 [==============================] - 1s 236ms/step - loss: 8.7426 - accuracy: 0.1333 - val_loss: 2.5688 - val_accuracy: 0.2000 - lr: 4.2852e-07
+Epoch 16/20
+4/4 [==============================] - 1s 235ms/step - loss: 9.2561 - accuracy: 0.1000 - val_loss: 2.5667 - val_accuracy: 0.2000 - lr: 2.7324e-07
+Epoch 17/20
+4/4 [==============================] - 1s 235ms/step - loss: 7.9160 - accuracy: 0.2000 - val_loss: 2.5645 - val_accuracy: 0.2000 - lr: 1.6907e-07
+Epoch 18/20
+4/4 [==============================] - 1s 241ms/step - loss: 7.3127 - accuracy: 0.1500 - val_loss: 2.5622 - val_accuracy: 0.2000 - lr: 1.0153e-07
+Epoch 19/20
+4/4 [==============================] - 1s 249ms/step - loss: 7.1379 - accuracy: 0.2000 - val_loss: 2.5600 - val_accuracy: 0.2000 - lr: 5.9166e-08
+Epoch 20/20
+4/4 [==============================] - 1s 235ms/step - loss: 7.3650 - accuracy: 0.2000 - val_loss: 2.5577 - val_accuracy: 0.2000 - lr: 3.3460e-08
+1/1 [==============================] - 0s 88ms/step - loss: 2.6402 - accuracy: 0.0000e+00
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 9.4193 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 266ms/step - loss: 9.4193 - accuracy: 0.1333 - val_loss: 2.6052 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 219ms/step - loss: 8.1548 - accuracy: 0.1333 - val_loss: 2.6031 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 214ms/step - loss: 7.6211 - accuracy: 0.1667 - val_loss: 2.5979 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 226ms/step - loss: 8.5444 - accuracy: 0.0833 - val_loss: 2.5927 - val_accuracy: 0.4000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 239ms/step - loss: 8.3126 - accuracy: 0.1833 - val_loss: 2.5859 - val_accuracy: 0.4000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 238ms/step - loss: 9.0378 - accuracy: 0.1833 - val_loss: 2.5798 - val_accuracy: 0.4000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 227ms/step - loss: 7.3746 - accuracy: 0.1500 - val_loss: 2.5745 - val_accuracy: 0.4000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 214ms/step - loss: 8.9636 - accuracy: 0.1500 - val_loss: 2.5709 - val_accuracy: 0.4000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 260ms/step - loss: 7.6723 - accuracy: 0.2000 - val_loss: 2.5679 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 231ms/step - loss: 8.5511 - accuracy: 0.2167 - val_loss: 2.5656 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 224ms/step - loss: 8.5160 - accuracy: 0.1667 - val_loss: 2.5632 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 219ms/step - loss: 6.9993 - accuracy: 0.2167 - val_loss: 2.5606 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/25
+4/4 [==============================] - 1s 235ms/step - loss: 6.6170 - accuracy: 0.2167 - val_loss: 2.5585 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/25
+4/4 [==============================] - 1s 226ms/step - loss: 8.2384 - accuracy: 0.2833 - val_loss: 2.5564 - val_accuracy: 0.2000 - lr: 6.5219e-07
+Epoch 15/25
+4/4 [==============================] - 1s 234ms/step - loss: 8.0012 - accuracy: 0.1667 - val_loss: 2.5546 - val_accuracy: 0.2000 - lr: 4.2852e-07
+Epoch 16/25
+4/4 [==============================] - 1s 266ms/step - loss: 7.0956 - accuracy: 0.2833 - val_loss: 2.5531 - val_accuracy: 0.2000 - lr: 2.7324e-07
+Epoch 17/25
+4/4 [==============================] - 1s 242ms/step - loss: 7.4420 - accuracy: 0.2000 - val_loss: 2.5516 - val_accuracy: 0.2000 - lr: 1.6907e-07
+Epoch 18/25
+4/4 [==============================] - 1s 222ms/step - loss: 9.5070 - accuracy: 0.2000 - val_loss: 2.5501 - val_accuracy: 0.2000 - lr: 1.0153e-07
+Epoch 19/25
+4/4 [==============================] - 1s 230ms/step - loss: 7.7466 - accuracy: 0.1833 - val_loss: 2.5487 - val_accuracy: 0.2000 - lr: 5.9166e-08
+Epoch 20/25
+4/4 [==============================] - 1s 220ms/step - loss: 8.4525 - accuracy: 0.2000 - val_loss: 2.5474 - val_accuracy: 0.2000 - lr: 3.3460e-08
+Epoch 21/25
+4/4 [==============================] - 1s 218ms/step - loss: 7.5133 - accuracy: 0.2167 - val_loss: 2.5462 - val_accuracy: 0.2000 - lr: 1.8363e-08
+Epoch 22/25
+4/4 [==============================] - 1s 246ms/step - loss: 7.7261 - accuracy: 0.1333 - val_loss: 2.5451 - val_accuracy: 0.2000 - lr: 9.7800e-09
+Epoch 23/25
+4/4 [==============================] - 1s 225ms/step - loss: 7.1298 - accuracy: 0.1833 - val_loss: 2.5440 - val_accuracy: 0.2000 - lr: 5.0548e-09
+Epoch 24/25
+4/4 [==============================] - 1s 240ms/step - loss: 7.2338 - accuracy: 0.1333 - val_loss: 2.5430 - val_accuracy: 0.2000 - lr: 2.5354e-09
+Epoch 25/25
+4/4 [==============================] - 1s 246ms/step - loss: 7.5640 - accuracy: 0.1833 - val_loss: 2.5421 - val_accuracy: 0.2000 - lr: 1.2341e-09
+1/1 [==============================] - 0s 87ms/step - loss: 2.5344 - accuracy: 0.1429
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 8.4613 - accuracy: 0.1500C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 359ms/step - loss: 8.4613 - accuracy: 0.1500 - val_loss: 2.7809 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 339ms/step - loss: 7.7249 - accuracy: 0.2167 - val_loss: 2.7746 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 296ms/step - loss: 8.0575 - accuracy: 0.2000 - val_loss: 2.7696 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 297ms/step - loss: 8.0632 - accuracy: 0.1333 - val_loss: 2.7691 - val_accuracy: 0.4000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 326ms/step - loss: 7.9921 - accuracy: 0.1833 - val_loss: 2.7687 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 299ms/step - loss: 7.1719 - accuracy: 0.2167 - val_loss: 2.7678 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/20
+4/4 [==============================] - 1s 295ms/step - loss: 7.1887 - accuracy: 0.1000 - val_loss: 2.7676 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/20
+4/4 [==============================] - 1s 299ms/step - loss: 7.3053 - accuracy: 0.2500 - val_loss: 2.7667 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/20
+4/4 [==============================] - 1s 296ms/step - loss: 6.6397 - accuracy: 0.1167 - val_loss: 2.7646 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/20
+4/4 [==============================] - 1s 342ms/step - loss: 7.8899 - accuracy: 0.2167 - val_loss: 2.7637 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/20
+4/4 [==============================] - 1s 296ms/step - loss: 6.2062 - accuracy: 0.2000 - val_loss: 2.7635 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/20
+4/4 [==============================] - 1s 273ms/step - loss: 6.2961 - accuracy: 0.1500 - val_loss: 2.7635 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/20
+4/4 [==============================] - 1s 278ms/step - loss: 6.5091 - accuracy: 0.2167 - val_loss: 2.7640 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/20
+4/4 [==============================] - 1s 274ms/step - loss: 7.9726 - accuracy: 0.1833 - val_loss: 2.7647 - val_accuracy: 0.2000 - lr: 3.2610e-07
+1/1 [==============================] - 0s 98ms/step - loss: 2.8130 - accuracy: 0.0000e+00
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 7.4143 - accuracy: 0.2000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 351ms/step - loss: 7.4143 - accuracy: 0.2000 - val_loss: 2.7745 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 289ms/step - loss: 6.8951 - accuracy: 0.1500 - val_loss: 2.7645 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 337ms/step - loss: 7.4224 - accuracy: 0.0833 - val_loss: 2.7630 - val_accuracy: 0.4000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 291ms/step - loss: 7.8952 - accuracy: 0.1167 - val_loss: 2.7613 - val_accuracy: 0.0000e+00 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 295ms/step - loss: 6.8099 - accuracy: 0.1667 - val_loss: 2.7577 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 307ms/step - loss: 7.0351 - accuracy: 0.1833 - val_loss: 2.7505 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 303ms/step - loss: 8.3025 - accuracy: 0.0833 - val_loss: 2.7459 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 333ms/step - loss: 8.1106 - accuracy: 0.1667 - val_loss: 2.7426 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 294ms/step - loss: 6.8406 - accuracy: 0.1167 - val_loss: 2.7411 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 297ms/step - loss: 7.3250 - accuracy: 0.1833 - val_loss: 2.7411 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 273ms/step - loss: 7.3115 - accuracy: 0.2167 - val_loss: 2.7414 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 281ms/step - loss: 7.3136 - accuracy: 0.1167 - val_loss: 2.7414 - val_accuracy: 0.2000 - lr: 6.9035e-07
+Overfitting detected at Epoch 11. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 7.8690 - accuracy: 0.1833C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 344ms/step - loss: 7.8690 - accuracy: 0.1833 - val_loss: 2.7824 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 301ms/step - loss: 8.4119 - accuracy: 0.1667 - val_loss: 2.7809 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 297ms/step - loss: 8.1770 - accuracy: 0.1500 - val_loss: 2.7785 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 288ms/step - loss: 7.4220 - accuracy: 0.1500 - val_loss: 2.7770 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 272ms/step - loss: 9.5118 - accuracy: 0.1500 - val_loss: 2.7774 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 297ms/step - loss: 7.9092 - accuracy: 0.1500 - val_loss: 2.7749 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/20
+4/4 [==============================] - 1s 297ms/step - loss: 7.0330 - accuracy: 0.1667 - val_loss: 2.7715 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/20
+4/4 [==============================] - 1s 331ms/step - loss: 7.1111 - accuracy: 0.2167 - val_loss: 2.7683 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/20
+4/4 [==============================] - 1s 295ms/step - loss: 8.2488 - accuracy: 0.1667 - val_loss: 2.7675 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/20
+4/4 [==============================] - 1s 275ms/step - loss: 5.0810 - accuracy: 0.2000 - val_loss: 2.7678 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/20
+4/4 [==============================] - 1s 278ms/step - loss: 6.8201 - accuracy: 0.1833 - val_loss: 2.7692 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/20
+4/4 [==============================] - 1s 275ms/step - loss: 8.4083 - accuracy: 0.1833 - val_loss: 2.7708 - val_accuracy: 0.2000 - lr: 6.9035e-07
+Overfitting detected at Epoch 10. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 9.4886 - accuracy: 0.1000C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 346ms/step - loss: 9.4886 - accuracy: 0.1000 - val_loss: 2.7767 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 336ms/step - loss: 7.6828 - accuracy: 0.1000 - val_loss: 2.7726 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 298ms/step - loss: 8.9122 - accuracy: 0.1667 - val_loss: 2.7720 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 278ms/step - loss: 6.7102 - accuracy: 0.1833 - val_loss: 2.7750 - val_accuracy: 0.0000e+00 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 268ms/step - loss: 6.5857 - accuracy: 0.2333 - val_loss: 2.7833 - val_accuracy: 0.0000e+00 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 309ms/step - loss: 8.3489 - accuracy: 0.1833 - val_loss: 2.7923 - val_accuracy: 0.0000e+00 - lr: 3.1881e-06
+Overfitting detected at Epoch 4. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 9.2427 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 361ms/step - loss: 9.2427 - accuracy: 0.1667 - val_loss: 2.8216 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 266ms/step - loss: 6.4025 - accuracy: 0.1833 - val_loss: 2.8236 - val_accuracy: 0.0000e+00 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 301ms/step - loss: 6.4053 - accuracy: 0.1500 - val_loss: 2.8252 - val_accuracy: 0.0000e+00 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 271ms/step - loss: 7.5300 - accuracy: 0.1833 - val_loss: 2.8253 - val_accuracy: 0.0000e+00 - lr: 4.1764e-06
+Overfitting detected at Epoch 2. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 8.1585 - accuracy: 0.1667C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 356ms/step - loss: 8.1585 - accuracy: 0.1667 - val_loss: 2.7377 - val_accuracy: 0.2000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 284ms/step - loss: 7.7362 - accuracy: 0.1667 - val_loss: 2.7325 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 293ms/step - loss: 7.4820 - accuracy: 0.1333 - val_loss: 2.7269 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 318ms/step - loss: 7.4737 - accuracy: 0.1833 - val_loss: 2.7214 - val_accuracy: 0.4000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 310ms/step - loss: 8.6792 - accuracy: 0.1333 - val_loss: 2.7189 - val_accuracy: 0.4000 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 341ms/step - loss: 6.9389 - accuracy: 0.1667 - val_loss: 2.7162 - val_accuracy: 0.4000 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 340ms/step - loss: 7.1469 - accuracy: 0.2000 - val_loss: 2.7128 - val_accuracy: 0.4000 - lr: 5.3259e-06
+Epoch 8/25
+4/4 [==============================] - 1s 327ms/step - loss: 8.1699 - accuracy: 0.1667 - val_loss: 2.7109 - val_accuracy: 0.4000 - lr: 4.3171e-06
+Epoch 9/25
+4/4 [==============================] - 1s 325ms/step - loss: 8.2080 - accuracy: 0.2167 - val_loss: 2.7077 - val_accuracy: 0.4000 - lr: 3.3960e-06
+Epoch 10/25
+4/4 [==============================] - 1s 285ms/step - loss: 7.5320 - accuracy: 0.1500 - val_loss: 2.7030 - val_accuracy: 0.4000 - lr: 2.5924e-06
+Epoch 11/25
+4/4 [==============================] - 1s 307ms/step - loss: 8.1169 - accuracy: 0.1833 - val_loss: 2.6965 - val_accuracy: 0.4000 - lr: 1.9205e-06
+Epoch 12/25
+4/4 [==============================] - 1s 300ms/step - loss: 7.6533 - accuracy: 0.1667 - val_loss: 2.6915 - val_accuracy: 0.4000 - lr: 1.3807e-06
+Epoch 13/25
+4/4 [==============================] - 1s 298ms/step - loss: 7.4896 - accuracy: 0.1833 - val_loss: 2.6866 - val_accuracy: 0.4000 - lr: 9.6328e-07
+Epoch 14/25
+4/4 [==============================] - 1s 290ms/step - loss: 7.0060 - accuracy: 0.1833 - val_loss: 2.6821 - val_accuracy: 0.4000 - lr: 6.5219e-07
+Epoch 15/25
+4/4 [==============================] - 1s 298ms/step - loss: 6.3250 - accuracy: 0.2000 - val_loss: 2.6780 - val_accuracy: 0.4000 - lr: 4.2852e-07
+Epoch 16/25
+4/4 [==============================] - 1s 297ms/step - loss: 7.2921 - accuracy: 0.2000 - val_loss: 2.6736 - val_accuracy: 0.4000 - lr: 2.7324e-07
+Epoch 17/25
+4/4 [==============================] - 1s 300ms/step - loss: 6.9099 - accuracy: 0.1333 - val_loss: 2.6696 - val_accuracy: 0.4000 - lr: 1.6907e-07
+Epoch 18/25
+4/4 [==============================] - 1s 298ms/step - loss: 7.9070 - accuracy: 0.1333 - val_loss: 2.6656 - val_accuracy: 0.4000 - lr: 1.0153e-07
+Epoch 19/25
+4/4 [==============================] - 1s 296ms/step - loss: 7.4377 - accuracy: 0.1667 - val_loss: 2.6616 - val_accuracy: 0.4000 - lr: 5.9166e-08
+Epoch 20/25
+4/4 [==============================] - 1s 311ms/step - loss: 7.1175 - accuracy: 0.1833 - val_loss: 2.6575 - val_accuracy: 0.4000 - lr: 3.3460e-08
+Epoch 21/25
+4/4 [==============================] - 1s 298ms/step - loss: 6.7998 - accuracy: 0.1500 - val_loss: 2.6536 - val_accuracy: 0.4000 - lr: 1.8363e-08
+Epoch 22/25
+4/4 [==============================] - 1s 292ms/step - loss: 6.2315 - accuracy: 0.2167 - val_loss: 2.6497 - val_accuracy: 0.4000 - lr: 9.7800e-09
+Epoch 23/25
+4/4 [==============================] - 1s 287ms/step - loss: 9.1602 - accuracy: 0.1667 - val_loss: 2.6460 - val_accuracy: 0.4000 - lr: 5.0548e-09
+Epoch 24/25
+4/4 [==============================] - 1s 308ms/step - loss: 7.1060 - accuracy: 0.2167 - val_loss: 2.6424 - val_accuracy: 0.4000 - lr: 2.5354e-09
+Epoch 25/25
+4/4 [==============================] - 1s 336ms/step - loss: 7.4442 - accuracy: 0.1667 - val_loss: 2.6389 - val_accuracy: 0.4000 - lr: 1.2341e-09
+1/1 [==============================] - 0s 93ms/step - loss: 2.5701 - accuracy: 0.4286
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/20
+4/4 [==============================] - ETA: 0s - loss: 8.9724 - accuracy: 0.1167C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 349ms/step - loss: 8.9724 - accuracy: 0.1167 - val_loss: 2.8265 - val_accuracy: 0.0000e+00 - lr: 1.0000e-05
+Epoch 2/20
+4/4 [==============================] - 1s 311ms/step - loss: 6.5011 - accuracy: 0.1667 - val_loss: 2.8152 - val_accuracy: 0.2000 - lr: 9.7045e-06
+Epoch 3/20
+4/4 [==============================] - 1s 326ms/step - loss: 6.2422 - accuracy: 0.2667 - val_loss: 2.8081 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/20
+4/4 [==============================] - 1s 317ms/step - loss: 8.0223 - accuracy: 0.1167 - val_loss: 2.8024 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/20
+4/4 [==============================] - 1s 311ms/step - loss: 8.0306 - accuracy: 0.1500 - val_loss: 2.7971 - val_accuracy: 0.2000 - lr: 7.4082e-06
+Epoch 6/20
+4/4 [==============================] - 1s 319ms/step - loss: 7.5775 - accuracy: 0.1667 - val_loss: 2.7916 - val_accuracy: 0.2000 - lr: 6.3763e-06
+Epoch 7/20
+4/4 [==============================] - 1s 337ms/step - loss: 8.5296 - accuracy: 0.1333 - val_loss: 2.7839 - val_accuracy: 0.2000 - lr: 5.3259e-06
+Epoch 8/20
+4/4 [==============================] - 1s 304ms/step - loss: 7.2553 - accuracy: 0.1833 - val_loss: 2.7766 - val_accuracy: 0.2000 - lr: 4.3171e-06
+Epoch 9/20
+4/4 [==============================] - 1s 311ms/step - loss: 6.6844 - accuracy: 0.2333 - val_loss: 2.7700 - val_accuracy: 0.2000 - lr: 3.3960e-06
+Epoch 10/20
+4/4 [==============================] - 1s 308ms/step - loss: 7.3480 - accuracy: 0.1500 - val_loss: 2.7632 - val_accuracy: 0.2000 - lr: 2.5924e-06
+Epoch 11/20
+4/4 [==============================] - 1s 331ms/step - loss: 7.8353 - accuracy: 0.2500 - val_loss: 2.7555 - val_accuracy: 0.2000 - lr: 1.9205e-06
+Epoch 12/20
+4/4 [==============================] - 1s 337ms/step - loss: 7.9069 - accuracy: 0.1333 - val_loss: 2.7483 - val_accuracy: 0.2000 - lr: 1.3807e-06
+Epoch 13/20
+4/4 [==============================] - 1s 298ms/step - loss: 6.0526 - accuracy: 0.2667 - val_loss: 2.7414 - val_accuracy: 0.2000 - lr: 9.6328e-07
+Epoch 14/20
+4/4 [==============================] - 1s 330ms/step - loss: 7.5535 - accuracy: 0.2000 - val_loss: 2.7353 - val_accuracy: 0.2000 - lr: 6.5219e-07
+Epoch 15/20
+4/4 [==============================] - 1s 314ms/step - loss: 7.8674 - accuracy: 0.1833 - val_loss: 2.7300 - val_accuracy: 0.4000 - lr: 4.2852e-07
+Epoch 16/20
+4/4 [==============================] - 1s 330ms/step - loss: 7.9137 - accuracy: 0.1500 - val_loss: 2.7255 - val_accuracy: 0.4000 - lr: 2.7324e-07
+Epoch 17/20
+4/4 [==============================] - 1s 307ms/step - loss: 7.5703 - accuracy: 0.1000 - val_loss: 2.7211 - val_accuracy: 0.4000 - lr: 1.6907e-07
+Epoch 18/20
+4/4 [==============================] - 1s 342ms/step - loss: 6.8049 - accuracy: 0.2167 - val_loss: 2.7172 - val_accuracy: 0.4000 - lr: 1.0153e-07
+Epoch 19/20
+4/4 [==============================] - 1s 297ms/step - loss: 6.8206 - accuracy: 0.1000 - val_loss: 2.7136 - val_accuracy: 0.4000 - lr: 5.9166e-08
+Epoch 20/20
+4/4 [==============================] - 1s 305ms/step - loss: 6.4343 - accuracy: 0.1833 - val_loss: 2.7105 - val_accuracy: 0.4000 - lr: 3.3460e-08
+1/1 [==============================] - 0s 106ms/step - loss: 2.6192 - accuracy: 0.4286
+Found 60 images belonging to 6 classes.
+Found 5 images belonging to 6 classes.
+Found 7 images belonging to 6 classes.
+Epoch 1/25
+4/4 [==============================] - ETA: 0s - loss: 8.3226 - accuracy: 0.1333C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\.venv\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+4/4 [==============================] - 2s 356ms/step - loss: 8.3226 - accuracy: 0.1333 - val_loss: 2.7709 - val_accuracy: 0.4000 - lr: 1.0000e-05
+Epoch 2/25
+4/4 [==============================] - 1s 314ms/step - loss: 7.9713 - accuracy: 0.1667 - val_loss: 2.7687 - val_accuracy: 0.4000 - lr: 9.7045e-06
+Epoch 3/25
+4/4 [==============================] - 1s 284ms/step - loss: 7.6195 - accuracy: 0.1167 - val_loss: 2.7691 - val_accuracy: 0.2000 - lr: 9.1393e-06
+Epoch 4/25
+4/4 [==============================] - 1s 371ms/step - loss: 8.8172 - accuracy: 0.1333 - val_loss: 2.7676 - val_accuracy: 0.2000 - lr: 8.3527e-06
+Epoch 5/25
+4/4 [==============================] - 1s 325ms/step - loss: 9.1540 - accuracy: 0.1667 - val_loss: 2.7693 - val_accuracy: 0.0000e+00 - lr: 7.4082e-06
+Epoch 6/25
+4/4 [==============================] - 1s 285ms/step - loss: 7.3033 - accuracy: 0.1667 - val_loss: 2.7700 - val_accuracy: 0.0000e+00 - lr: 6.3763e-06
+Epoch 7/25
+4/4 [==============================] - 1s 276ms/step - loss: 9.2420 - accuracy: 0.1500 - val_loss: 2.7696 - val_accuracy: 0.0000e+00 - lr: 2.6630e-06
+Overfitting detected at Epoch 3. Adjusting hyperparameters...
+New learning rate: 1.0000000000000002e-06, New dropout rate: 0.7
+
+Process finished with exit code 0

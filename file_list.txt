@@ -1,0 +1,115 @@
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\C. albicans ATCC 10231 (Hard to detect)_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\C. albicans ATCC 10231 (Hard to detect)_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\E. faecalis ATCC 29212_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\E. faecalis ATCC 29212_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\k. pneumonia B835010_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\k. pneumonia B835010_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\P. aerigimosa (ATCC 27853)_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\P. aerigimosa (ATCC 27853)_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\S. aureus ATCC 25923_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\S. aureus ATCC 25923_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\s. saprofyticus_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 20-06-24-20240821T153254Z-001\Bacteria 20-06-24\s. saprofyticus_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\c albicans (fungi), edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\c albicans (fungi),2.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\c albicans (fungi).jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\CFT073.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli - CFT073, edge of bacteria_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli - CFT073, edge of bacteria_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli - CFT073, middle _785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli - CFT073, middle _785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli - CFT073_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli - CFT073_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli CFT073, edge of bacteria, with grid.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli CFT073, edge of bacteria.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria 26-06-24-20240821T153237Z-001\Bacteria 26-06-24\E coli CFT073, ine the middle, with grid.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_edge_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_edge_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_middle.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_middle_2_785nm.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_middle_2_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_middle_2_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_middle_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Civiae_middle_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_edge_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_edge_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_middle.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_middle_2_785nm.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_middle_2_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_middle_2_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_middle_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Aero_Sobria_middle_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_785nm_edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_785nm_edge.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_785nm_edge.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_cereus_middle_2.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_middle_2_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_middle_2_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_middle_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bacillus_Cereus_middle_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_785nm_edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_785nm_edge.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_middle.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_middle2.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_middle_2_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_middle_2_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_middle_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Bor_bronchiseptica_middle_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\FilesListed
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_785nm_edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_785nm_edge.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_785nm_edge.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_middle.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_middle_2.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_middle_2_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_middle_2_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_middle_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\Morganella_Morganii_middle_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_edge.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_edge_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_edge_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_middle.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_middle_2.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-02-07-24-20240821T153301Z-001\stapholococcus_coagulans_middle_2_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\Assymptomatic E. coli, 1_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\Assymptomatic E. coli, 1_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\Assymptomatic E.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\E. coli agar pkate UTI89_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\E. coli agar pkate UTI89_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\E. coli on glass slide.jpg
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\E. coli on metal slide UTI89_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\E. coli on metal slide UTI89_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\e.coli UTI89, 29-06-24_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\e.coli UTI89, 29-06-24_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\e.coli UTI89,2 29-06-24_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\e.coli UTI89,2 29-06-24_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\e.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\e_1.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\E_2.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\Protius agar plate_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\Protius agar plate_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\Protius.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s. saprofyticus, scan_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s. saprofyticus, scan_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\S.saprofyticus_785nm.json
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\S.saprofyticus_785nm.mrspectra
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\S.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\S_1.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_10.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_11.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\S_2.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_3.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_4.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_5.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_6.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_7.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_8.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\s_9.tsv
+C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project\Bacteria-20240821T153307Z-001\Bacteria\UTI89 19-06-24.tsv

@@ -1,0 +1,10 @@
+                precision    recall  f1-score   support
+
+          Aero       0.00      0.00      0.00         3
+      Bacillus       0.00      0.00      0.00         1
+           Bor       0.14      1.00      0.25         1
+             E       0.00      0.00      0.00         2
+
+      accuracy                           0.14         7
+     macro avg       0.04      0.25      0.06         7
+  weighted avg       0.02      0.14      0.04         7

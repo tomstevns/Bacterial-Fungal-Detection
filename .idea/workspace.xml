@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4239b9cf-56b3-48f9-83ab-a6e010578cb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/fungis_bacterias_project_29_10_2024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_dataindlaesning_og_forberedelse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_dataindlaesning_og_forberedelse_labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_dataindlaesning_og_forberedelse_labels_mitgate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_dataindlaesning_og_forberedelse_labels_mitgate_outliermaps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_outliermaps_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Visualisering_af_smoothed_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Bayesian_Optimization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_CNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_5_1pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_5_2pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_5_3pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_5_4pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_5_5pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_10pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_11pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_12pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_13pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_14pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_15pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_16pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_17pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_18pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_19pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_1pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_20pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_21pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_22pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_23pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_24pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_25pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_26pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_27pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_28pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_29pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_2pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_30pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_31pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_32pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_33pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_34pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_35pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_36pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_37pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_38pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_39pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_3pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_40pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_41pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_42pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_43pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_44pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_45pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_46pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_47pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_48pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_49pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_4pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_50pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_51pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_52pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_53pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_54pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_55pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_56pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_5pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_6pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_7pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_8pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_6_9pr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_CNN7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_FNN_CNN8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradieent_Descent1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Gradient_Boosted_Trees7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest14_stratified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest15_stratified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest16_stratified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest17_stratified.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_Random_Forest9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_XGBoost1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_XGBoost2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_model_training_and_evaluation_XGBoost3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4_shuffle_pictures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/C._albicans_ATCC_10231_(Hard_to_detect)_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/C._albicans_ATCC_10231_(Hard_to_detect)_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/E._faecalis_ATCC_29212_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/E._faecalis_ATCC_29212_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/P._aerigimosa_(ATCC_27853)_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/P._aerigimosa_(ATCC_27853)_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/S._aureus_ATCC_25923_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/S._aureus_ATCC_25923_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/k._pneumonia_B835010_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/k._pneumonia_B835010_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/s._saprofyticus_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 20-06-24-20240821T153254Z-001/Bacteria 20-06-24/s._saprofyticus_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/CFT073.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_-_CFT073_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_-_CFT073_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_-_CFT073__edge_of_bacteria_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_-_CFT073__edge_of_bacteria_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_-_CFT073__middle__785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_-_CFT073__middle__785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_CFT073__edge_of_bacteria.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_CFT073__edge_of_bacteria__with_grid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/E_coli_CFT073__ine_the_middle__with_grid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/c_albicans_(fungi).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/c_albicans_(fungi)_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria 26-06-24-20240821T153237Z-001/Bacteria 26-06-24/c_albicans_(fungi)__edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_edge_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_edge_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_middle_2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_middle_2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_middle_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Civiae_middle_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_edge_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_edge_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_middle_2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_middle_2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_middle_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Aero_Sobria_middle_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_785nm_edge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_785nm_edge.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_middle_2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_middle_2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_middle_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_Cereus_middle_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_middle_2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_middle_2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_middle_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Bor_bronchiseptica_middle_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/FilesListed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_785nm_edge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_785nm_edge.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_middle_2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_middle_2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_middle_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/Morganella_Morganii_middle_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_edge_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_edge_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-02-07-24-20240821T153301Z-001/stapholococcus_coagulans_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p6_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse1-p6_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10_p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10_p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10_p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10_p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse10_p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse2p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p2-fat_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p2-fat_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p6_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3-p6_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p2-salo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p4-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p6-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse3p6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4_p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4_p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4_p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4_p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse4_p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5_p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5_p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5_p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5_p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse5_p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6_spec2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse6_spec5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p6_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7-p6_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7_spec1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7_spec1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7_spec1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse7_spec1.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8_p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8_spec1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8_spec2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8_spec3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse8_spec4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p4_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p4_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p5_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9-p5_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9_p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9_p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9_p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9_p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Mouse9_p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Poly-500ms-10rep-89mW.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/S.Aureus1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/S.Aureus1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/S.Aureus2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/S.Aureus2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/S.Aureus3_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/S.Aureus3_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/Samples description.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-11-10-24/Mice 11-10-24/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/Assymptomatic_E._coli__1_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/Assymptomatic_E._coli__1_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/Assymptomatic_E.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/E._coli_agar_pkate_UTI89_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/E._coli_agar_pkate_UTI89_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/E._coli_on_metal_slide_UTI89_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/E._coli_on_metal_slide_UTI89_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/E_2.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/Protius.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/Protius_agar_plate_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/Protius_agar_plate_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/S.saprofyticus_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/S.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/S_1.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/S_2.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/UTI89_19-06-24.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/e.coli_UTI89_2_29-06-24_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/e.coli_UTI89_2_29-06-24_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/e.coli_UTI89__29-06-24_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/e.coli_UTI89__29-06-24_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/e.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/e_1.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s._saprofyticus__scan_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s._saprofyticus__scan_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_10.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_11.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_3.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_4.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_5.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_6.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_7.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_8.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bacteria-20240821T153307Z-001/Bacteria/s_9.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_785nm_edge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_785nm_edge.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_middle_2_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_middle_2_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_middle_785nm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Morganella_Morganii_middle_785nm.mrspectra" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadJSONFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/X_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/X_data_features.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze_001_Morganella_Morganii_middle_2_785nm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze_002_Morganella_Morganii_785nm_edge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze_003_Morganella_Morganii_middle_785nm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best_cnn_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/best_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_report_0.0001_0.7_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_report_0.0001_0.7_64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_report_1e-05_0.5_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_report_1e-05_0.5_64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_report_1e-05_0.7_32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classification_report_1e-05_0.7_64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_history_5e-05_0.6_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn_history_5e-05_0.6_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confusion_matrix_0.0001_0.7_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confusion_matrix_0.0001_0.7_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confusion_matrix_1e-05_0.5_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confusion_matrix_1e-05_0.5_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confusion_matrix_1e-05_0.7_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confusion_matrix_1e-05_0.7_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Aero_Civiae_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Aero_Civiae_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Aero_Civiae_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Aero_Sobria_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Aero_Sobria_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Aero_Sobria_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Bor_bronchiseptica_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Morganella_Morganii_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/X_data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/X_data_augmented.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stapholococcus_coagulans_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/stapholococcus_coagulans_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Aero/Aero_Civiae_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Aero/Aero_Civiae_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Aero/Aero_Sobria_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Aero_Civiae_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Bacillus/Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Morganella/Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/Morganella_Morganii_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/stapholococcus/stapholococcus_coagulans_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/test/stapholococcus/stapholococcus_coagulans_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/Aero_Civiae_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/Aero_Civiae_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/Aero_Civiae_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/Aero_Sobria_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/Aero_Sobria_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/Aero_Sobria_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/aug_0_Aero_Civiae_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/aug_1_Aero_Civiae_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/aug_2_Aero_Civiae_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero/aug_3_Aero_Sobria_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero_Civiae_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero_Civiae_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero_Sobria_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Aero_Sobria_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_0_Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_1_Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_2_Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_3_Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_4_Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_5_Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_6_Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus/aug_7_Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus_Cereus_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bacillus_cereus_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/Bor_bronchiseptica_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_0_Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_1_Bor_bronchiseptica_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_2_Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_3_Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_4_Bor_bronchiseptica_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_5_Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor/aug_6_Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor_bronchiseptica_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Bor_bronchiseptica_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_0_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_1_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_2_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_3_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_4_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_5_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_6_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_7_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/E/aug_8_E._coli_on_glass_slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/Morganella_Morganii_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_0_Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_1_Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_2_Morganella_Morganii_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_3_Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_4_Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_5_Morganella_Morganii_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella/aug_6_Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/Morganella_Morganii_785nm_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_0_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_1_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_2_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_3_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_4_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_5_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_6_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_7_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/aug_8_stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus/stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus_coagulans_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/stapholococcus_coagulans_middle_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/Aero/Aero_Civiae_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/Aero/Aero_Sobria_middle_2_785nm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/Aero_Sobria_edge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/Bor/Bor_bronchiseptica_middle2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/Morganella/Morganella_Morganii_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/stapholococcus/stapholococcus_coagulans_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/validation/stapholococcus_coagulans_middle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/y_labels.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/y_labels_augmented.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_augmented/test/X_data_augmented_test.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_augmented/test/y_labels_augmented_test.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_augmented/train/X_data_augmented_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_augmented/train/y_labels_augmented_train.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_augmented/validation/X_data_augmented_validation.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_augmented/validation/y_labels_augmented_validation.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edgetest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch2.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch3.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch32.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch33.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch34.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch35.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch36.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch37.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch39.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch4.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch41.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch42.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch44.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch45.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch46.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch49.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch5.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch50.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch51.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch52.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch54.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch55.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch56.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch6.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch7.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch8.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch9.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epoch_list_all_overfitted.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fjern_ugyldige_filer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.4_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.4_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.5_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.5_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.6_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.6_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.7_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0001_0.7_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0005_0.4_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0005_0.4_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0005_0.5_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0005_0.5_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0005_0.6_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_0.0005_0.6_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.4_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.4_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.5_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.5_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.6_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.6_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.7_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_1e-05_0.7_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.4_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.4_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.5_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.5_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.6_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.6_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.7_32.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history_5e-05_0.7_64.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hyperparameter_results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpgdir.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_augmented.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputCSV.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Aero_Civiae_edge_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Aero_Civiae_middle_2_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Aero_Civiae_middle_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Aero_Sobria_edge_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Aero_Sobria_middle_2_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Aero_Sobria_middle_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Assymptomatic_E._coli__1_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Bacillus_Cereus_785nm_edge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Bacillus_Cereus_middle_2_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Bacillus_Cereus_middle_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Bor_bronchiseptica_middle_2_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Bor_bronchiseptica_middle_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_C._albicans_ATCC_10231_(Hard_to_detect)_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_E._coli_agar_pkate_UTI89_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_E._coli_on_metal_slide_UTI89_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_E._faecalis_ATCC_29212_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_E_coli_-_CFT073_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_E_coli_-_CFT073__edge_of_bacteria_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_E_coli_-_CFT073__middle__785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Morganella_Morganii_785nm_edge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Morganella_Morganii_middle_2_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Morganella_Morganii_middle_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_P._aerigimosa_(ATCC_27853)_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_Protius_agar_plate_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_S._aureus_ATCC_25923_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_e.coli_UTI89_2_29-06-24_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_e.coli_UTI89__29-06-24_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_k._pneumonia_B835010_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_s._saprofyticus_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_s._saprofyticus__scan_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_stapholococcus_coagulans_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_spectra_stapholococcus_coagulans_edge_785nm.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_forest_checkpoint.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_forest_results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readAndShow-MR-spectroscopic_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rens_mapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectra_data_combination_ml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectra_data_combination_ml_pca.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectra_data_combination_multibacteria_ml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spectra_fitted_output_Morganella_Morganii_785nm_edge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xgboost_results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/y_labels.npy" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2o7fwmYupQz2qMr5SEJjnAtRrJk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/tomst/PycharmProjects/fungis_bacterias_project_29_10_2024",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tom.zbc\PycharmProjects\fungis_bacterias_project_29_10_2024" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="fungis_bacterias_project_29_10_2024" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4239b9cf-56b3-48f9-83ab-a6e010578cb2" name="Changes" comment="" />
+      <created>1730225775683</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730225775683</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2_Feature engineering og splitting af data til maskinlæring_outliermaps_7.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

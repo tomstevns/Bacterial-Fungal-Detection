@@ -20,3 +20,32 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# data / output
+data/
+datasets/
+output/
+outputs/
+Output_*/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# environments
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/

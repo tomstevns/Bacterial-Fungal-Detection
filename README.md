@@ -1,13 +1,3 @@
-DIV.repository-content {
-    display: table
-}
-DIV.js-repo-meta-container {
-    display: table-caption
-}
-DIV.readme {
-    display: table-header-group
-}
-
 # Bacterial & Fungal Detection — ML Pipeline (v1 → v85)
 
 End-to-end development of machine learning models for **bacterial and fungal detection**, focused on **robust classification**, **feature engineering**, **ensembles/meta-models**, **Bayesian hyperparameter optimization**, **hard negative mining**, and **dynamic model weighting**.
